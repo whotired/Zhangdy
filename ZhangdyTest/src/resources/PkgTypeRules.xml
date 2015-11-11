@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<digester-rules>
+
+	<pattern value="PackageTypes">
+		<object-create-rule classname="java.util.ArrayList" />
+		<pattern value="PackageType">
+			<object-create-rule classname="com.ibm.swot.controldata.PackageTypeTO" />
+			<set-properties-rule> 				
+				<alias attr-name="id" prop-name="id" />
+			</set-properties-rule>
+			<call-method-rule pattern="Name" methodname="setName" paramcount="0" />
+			<call-method-rule pattern="Key" methodname="setKey" paramcount="0" />
+			<!-- <call-method-rule pattern="LongNameResourceKey" methodname="setLongname" paramcount="0" />  -->
+			<call-method-rule pattern="PackageOffering" methodname="setPackageOffering" paramcount="0" />
+			<call-method-rule pattern="PackageCategoryId" methodname="setPackageCategoryId" paramcount="0" />
+			<call-method-rule pattern="IsLicenseCfgSupported" methodname="setLicCfgSupported" paramcount="0" />
+			<call-method-rule pattern="UsesAnnounceDates" methodname="setUseAnnDates" paramcount="0" />
+			<call-method-rule pattern="IsInternetDeliverable" methodname="setInternetDeliverable" paramcount="0" />
+			<call-method-rule pattern="UsesVSLs" methodname="setUsesVSLs" paramcount="0" />
+			<call-method-rule pattern="IsSupported" methodname="setSupported" paramcount="0" />
+			<call-method-rule pattern="SoftwareInventoryUsage" methodname="setSoftwareInventoryUsage" paramcount="0" />
+			<call-method-rule pattern="SupportedInCountry" methodname="addSupportedInCountries" paramcount="0" />
+			<!-- PTR 5552 -->
+			<call-method-rule pattern="IsSupportEsp" methodname="setSupportEsp" paramcount="0" />
+			<!-- <call-method-rule pattern="NotSupportedInCountry" methodname="addNotSupportedInCountries" paramcount="0" /> -->
+			<set-next-rule methodname="add" />
+		</pattern>
+	</pattern>
+	
+</digester-rules>

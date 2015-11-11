@@ -1,0 +1,7 @@
+<!ELEMENT xml (ToUserName,FromUserName,CreateTime,MsgType,Content,FuncFlag)>
+	<!ELEMENT ToUserName (#PCDATA)>
+	<!ELEMENT FromUserName (#PCDATA)>
+	<!ELEMENT CreateTime (#PCDATA)>
+	<!ELEMENT MsgType (#PCDATA)>
+	<!ELEMENT Content (#PCDATA)>
+	<!ELEMENT FuncFlag (#PCDATA)>

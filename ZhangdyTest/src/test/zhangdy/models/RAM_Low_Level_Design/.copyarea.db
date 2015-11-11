@@ -1,0 +1,14 @@
+ClearCase CopyAreaDB|4
+vobs\RAM_VOB\models\RAM_Low_Level_Design
+2
+a
+14:LoggingFramework.emx|1|1284d56cbaa|527b|3e461175|025fb720cd1b11dea6e3000209858a4c|0
+16:ExceptionFramework.emx|1|1284d56ca43|114f7|8c8640b3|e27fca6ecd1d11de98c4000209858a4c|0
+a:RAMEJB.emx|1|1284d5694bb|15ef8c|fd30fb0b|94ffbaf4cd1a11de87d1000209858a4c|0
+8:Java.emx|1|1284d56cacf|12e0|63e14593|5c5fb97ecd1b11de87fe000209858a4c|0
+16:UserAuthentication.emx|1|1284d56cd8e|6f78|17661798|ccbfc328cd1b11deb3df000209858a4c|0
+17:RAM Component Model.emx|1|1284d56c580|22b2b|575e1c7b|35ebaf00cc8111de8dfb000209858a4c|0
+a:RAMWeb.emx|1|1284d56bd33|7ca5a|d2a5db56|3c2bb5e2cc8211de8dd9000209858a4c|0
+11:RAMInterfaces.emx|1|1284d569cba|24a80|33ae773c|5a4baff4cc8111de8dc6000209858a4c|0
+8:.project|1|1284d56bddf|18b|fdf47ed0|df5996263eec11dcb905000209858a4c|0
+a:RAMAPI.emx|1|1284d5641f8|fefea|93b53740|29fbaeaecc8111deb12f000209858a4c|0

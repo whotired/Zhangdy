@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LogicalDataModel="http:///com/ibm/db/models/logical/logical.ecore">
+  <LogicalDataModel:Package xmi:id="_4XL3cHBoEdyb3bUvotEAiw" name="Package" contents="_4YbNkHBoEdyb3bUvotEAiw _4YbNuXBoEdyb3bUvotEAiw _4YbNxXBoEdyb3bUvotEAiw _4YbNy3BoEdyb3bUvotEAiw _4YbNpnBoEdyb3bUvotEAiw _4YbN2XBoEdyb3bUvotEAiw _4YbN7HBoEdyb3bUvotEAiw _4YbN73BoEdyb3bUvotEAiw _4YbN9HBoEdyb3bUvotEAiw _4YbOAHBoEdyb3bUvotEAiw _4YbOEnBoEdyb3bUvotEAiw _4YhUM3BoEdyb3bUvotEAiw _4YhUP3BoEdyb3bUvotEAiw _4YhUTHBoEdyb3bUvotEAiw"/>
+  <LogicalDataModel:Entity xmi:id="_4YbNkHBoEdyb3bUvotEAiw" name="TAPPROLE" description="" abbreviation="TAPPROLE" package="_4XL3cHBoEdyb3bUvotEAiw" relationshipEnds="_4YbNn3BoEdyb3bUvotEAiw _4YbNoXBoEdyb3bUvotEAiw _4YbNpHBoEdyb3bUvotEAiw" relationships="_4YbNnXBoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YbNkXBoEdyb3bUvotEAiw" name="ID" description="Unique id for this user's application role. Id will be generated using a DB2 Sequence object&#xD;&#xA;" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YbNknBoEdyb3bUvotEAiw" name="IDUSER" description="Id of user who has this application role&#xD;&#xA;" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YbNk3BoEdyb3bUvotEAiw" name="APPROLEID" description="Id of application role as defined by the application (APPID)&#xD;&#xA;" dataType="SHORT" required="true"/>
+    <attributes xmi:id="_4YbNlHBoEdyb3bUvotEAiw" name="APPID" description="Id of application this role has been defined for&#xD;&#xA;" dataType="SHORT" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4YbNlXBoEdyb3bUvotEAiw" name="TAPPROLE_PK" attributes="_4YbNkXBoEdyb3bUvotEAiw" relationshipEnds="_4YbNoXBoEdyb3bUvotEAiw _4YbNpHBoEdyb3bUvotEAiw"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_4YbNlnBoEdyb3bUvotEAiw" name="Foreign Key1" attributes="_4YbNknBoEdyb3bUvotEAiw" relationshipEnds="_4YbNn3BoEdyb3bUvotEAiw">
+      <eAnnotations xmi:id="_4YbNl3BoEdyb3bUvotEAiw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_4YbNmHBoEdyb3bUvotEAiw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_4YbNmXBoEdyb3bUvotEAiw" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_4YbNmnBoEdyb3bUvotEAiw" key="FK_CHILD_ROLE_NAME" value=""/>
+        <details xmi:id="_4YbNm3BoEdyb3bUvotEAiw" key="FK_PARENT_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_4YbNnHBoEdyb3bUvotEAiw" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </keys>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_4YbNnXBoEdyb3bUvotEAiw" name="Relationship1" relationshipType="NON_IDENTIFYING" owningEntity="_4YbNkHBoEdyb3bUvotEAiw">
+    <relationshipEnds xmi:id="_4YbNnnBoEdyb3bUvotEAiw" entity="_4YbNpnBoEdyb3bUvotEAiw" key="_4YbNr3BoEdyb3bUvotEAiw"/>
+    <relationshipEnds xmi:id="_4YbNn3BoEdyb3bUvotEAiw" deleteAction="CASCADE" cardinality="ZERO_TO_MANY" entity="_4YbNkHBoEdyb3bUvotEAiw" key="_4YbNlnBoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_4YbNoHBoEdyb3bUvotEAiw" name="Relationship1" owningEntity="_4YbNuXBoEdyb3bUvotEAiw">
+    <relationshipEnds xmi:id="_4YbNoXBoEdyb3bUvotEAiw" entity="_4YbNkHBoEdyb3bUvotEAiw" key="_4YbNlXBoEdyb3bUvotEAiw"/>
+    <relationshipEnds xmi:id="_4YbNonBoEdyb3bUvotEAiw" deleteAction="CASCADE" cardinality="ZERO_TO_MANY" entity="_4YbNuXBoEdyb3bUvotEAiw" key="_4YbNvnBoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_4YbNo3BoEdyb3bUvotEAiw" name="Relationship1" owningEntity="_4YbNy3BoEdyb3bUvotEAiw">
+    <relationshipEnds xmi:id="_4YbNpHBoEdyb3bUvotEAiw" entity="_4YbNkHBoEdyb3bUvotEAiw" key="_4YbNlXBoEdyb3bUvotEAiw"/>
+    <relationshipEnds xmi:id="_4YbNpXBoEdyb3bUvotEAiw" deleteAction="CASCADE" cardinality="ZERO_TO_MANY" entity="_4YbNy3BoEdyb3bUvotEAiw" key="_4YbN0nBoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_4YbNpnBoEdyb3bUvotEAiw" name="TUSER" abbreviation="TUSER" package="_4XL3cHBoEdyb3bUvotEAiw" relationshipEnds="_4YbNnnBoEdyb3bUvotEAiw _4YbNsXBoEdyb3bUvotEAiw _4YbNtHBoEdyb3bUvotEAiw _4YbNt3BoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YbNp3BoEdyb3bUvotEAiw" name="ID" description="Unique id for this user that is generated via a DB2 Sequence object. Has no business value.&#xD;&#xA;" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YbNqHBoEdyb3bUvotEAiw" name="PERMID" description="User's permanent id in authenticating service: &#xD;&#xA;- IIP: Country code + emp ser (CNUM)&#xD;&#xA;- WEBID: permanent id" dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YbNqXBoEdyb3bUvotEAiw" name="AUTHSERVICE" description="Id of authenticating service (IIP or WEBID) used to authenticate user&#xD;&#xA;" dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YbNqnBoEdyb3bUvotEAiw" name="FBUSPARTNER" description="Flag to indicate if user is a business partner. A null value indicates unknown&#xD;&#xA;" dataType="ROWID"/>
+    <attributes xmi:id="_4YbNq3BoEdyb3bUvotEAiw" name="APPID" description="Id of application user last worked with. Personalization data so that when user next signs into RAM, they will default to this app.&#xD;&#xA;" label="" dataType="SHORT" required="true"/>
+    <attributes xmi:id="_4YbNrHBoEdyb3bUvotEAiw" name="TSDELETED" description="Timestamp when user logically deleted&#xD;&#xA;" dataType="TIMESTAMP"/>
+    <attributes xmi:id="_4YbNrXBoEdyb3bUvotEAiw" name="TSCREATED" description="timestamp when this user created in RAM&#xD;&#xA;" dataType="TIMESTAMP" defaultValue="CURRENT TIMESTAMP" required="true"/>
+    <attributes xmi:id="_4YbNrnBoEdyb3bUvotEAiw" name="TSLASTLOGIN" description="Timestamp of when user last logged into RAM&#xD;&#xA;" dataType="TIMESTAMP"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4YbNr3BoEdyb3bUvotEAiw" name="TUSER_PK" attributes="_4YbNp3BoEdyb3bUvotEAiw" relationshipEnds="_4YbNnnBoEdyb3bUvotEAiw _4YbNsXBoEdyb3bUvotEAiw _4YbNtHBoEdyb3bUvotEAiw _4YbNt3BoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_4YbNsHBoEdyb3bUvotEAiw" name="Relationship1" relationshipType="NON_IDENTIFYING" owningEntity="_4YbN2XBoEdyb3bUvotEAiw">
+    <relationshipEnds xmi:id="_4YbNsXBoEdyb3bUvotEAiw" entity="_4YbNpnBoEdyb3bUvotEAiw" key="_4YbNr3BoEdyb3bUvotEAiw"/>
+    <relationshipEnds xmi:id="_4YbNsnBoEdyb3bUvotEAiw" deleteAction="CASCADE" cardinality="ZERO_TO_MANY" entity="_4YbN2XBoEdyb3bUvotEAiw" key="_4YbN5XBoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_4YbNs3BoEdyb3bUvotEAiw" name="Relationship1" existenceOptional="true" owningEntity="_4YbN9HBoEdyb3bUvotEAiw">
+    <relationshipEnds xmi:id="_4YbNtHBoEdyb3bUvotEAiw" cardinality="ONE" entity="_4YbNpnBoEdyb3bUvotEAiw" key="_4YbNr3BoEdyb3bUvotEAiw"/>
+    <relationshipEnds xmi:id="_4YbNtXBoEdyb3bUvotEAiw" verbPhrase="Verb1" deleteAction="CASCADE" cardinality="ZERO_TO_MANY" entity="_4YbN9HBoEdyb3bUvotEAiw" key="_4YbN-XBoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_4YbNtnBoEdyb3bUvotEAiw" name="Relationship2" relationshipType="NON_IDENTIFYING" existenceOptional="true" owningEntity="_4YbOEnBoEdyb3bUvotEAiw">
+    <relationshipEnds xmi:id="_4YbNt3BoEdyb3bUvotEAiw" cardinality="ONE" entity="_4YbNpnBoEdyb3bUvotEAiw" key="_4YbNr3BoEdyb3bUvotEAiw"/>
+    <relationshipEnds xmi:id="_4YbNuHBoEdyb3bUvotEAiw" deleteAction="CASCADE" cardinality="ZERO_TO_MANY" entity="_4YbOEnBoEdyb3bUvotEAiw" key="_4YbOIHBoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_4YbNuXBoEdyb3bUvotEAiw" name="TAPPROLESCOPE" abbreviation="TAPPROLESCOPE" package="_4XL3cHBoEdyb3bUvotEAiw" relationshipEnds="_4YbNonBoEdyb3bUvotEAiw" relationships="_4YbNoHBoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YbNunBoEdyb3bUvotEAiw" name="CUSTTYPE" description="The id of the customer type as defined in the aplication xml (AppDefinitions)&#xD;&#xA;" dataType="SHORT" required="true"/>
+    <attributes xmi:id="_4YbNu3BoEdyb3bUvotEAiw" name="ISOCNTRYCODE" description="ISO country code that identifies the country that this user is authorized to&#xD;&#xA;" dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YbNvHBoEdyb3bUvotEAiw" name="IDAPPROLE" description="Id of App Role this scope is for&#xD;&#xA;" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4YbNvXBoEdyb3bUvotEAiw" name="TAPPROLESCOPE_PK" attributes="_4YbNvHBoEdyb3bUvotEAiw _4YbNunBoEdyb3bUvotEAiw _4YbNu3BoEdyb3bUvotEAiw"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_4YbNvnBoEdyb3bUvotEAiw" name="Foreign Key1" attributes="_4YbNvHBoEdyb3bUvotEAiw" relationshipEnds="_4YbNonBoEdyb3bUvotEAiw">
+      <eAnnotations xmi:id="_4YbNv3BoEdyb3bUvotEAiw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_4YbNwHBoEdyb3bUvotEAiw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_4YbNwXBoEdyb3bUvotEAiw" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_4YbNwnBoEdyb3bUvotEAiw" key="FK_CHILD_ROLE_NAME" value=""/>
+        <details xmi:id="_4YbNw3BoEdyb3bUvotEAiw" key="FK_PARENT_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_4YbNxHBoEdyb3bUvotEAiw" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </keys>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4YbNxXBoEdyb3bUvotEAiw" name="TAUDIT" abbreviation="TAUDIT" package="_4XL3cHBoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YbNxnBoEdyb3bUvotEAiw" name="TYPE" dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YbNx3BoEdyb3bUvotEAiw" name="TS" description="Audited action tiemstamp&#xD;&#xA;" dataType="TIMESTAMP" required="true"/>
+    <attributes xmi:id="_4YbNyHBoEdyb3bUvotEAiw" name="PERFORMER" description="name/id of entity that took the action&#xD;&#xA;" dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YbNyXBoEdyb3bUvotEAiw" name="DETAILS" description="details of the action. This could be in xml format or keyword value pairs &#xD;&#xA;" dataType="CLOB(1024)" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4YbNynBoEdyb3bUvotEAiw" name="TAUDIT_PK" attributes="_4YbNxnBoEdyb3bUvotEAiw _4YbNx3BoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4YbNy3BoEdyb3bUvotEAiw" name="TEVENTSUB" abbreviation="TEVENTSUB" package="_4XL3cHBoEdyb3bUvotEAiw" relationshipEnds="_4YbNpXBoEdyb3bUvotEAiw" relationships="_4YbNo3BoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YbNzHBoEdyb3bUvotEAiw" name="EVENTTYPE" description="Id of type of event as defined to the application (APPID in TAPPROLE)&#xD;&#xA;" dataType="SHORT" required="true"/>
+    <attributes xmi:id="_4YbNzXBoEdyb3bUvotEAiw" name="CUSTNUM" description="Customer number with country prefix&#xD;&#xA;" dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YbNznBoEdyb3bUvotEAiw" name="ISOCNTRYCODE" dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YbNz3BoEdyb3bUvotEAiw" name="IDAPPROLE" description="Id of Application role of subscriber role this subscrition applies to&#xD;&#xA;" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YbN0HBoEdyb3bUvotEAiw" name="DVALIDATED" dataType="DATE" defaultValue="CURRENT DATE" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4YbN0XBoEdyb3bUvotEAiw" name="TEVENTSUB_PK" attributes="_4YbNz3BoEdyb3bUvotEAiw _4YbNzHBoEdyb3bUvotEAiw _4YbNzXBoEdyb3bUvotEAiw _4YbNznBoEdyb3bUvotEAiw"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_4YbN0nBoEdyb3bUvotEAiw" name="Foreign Key1" attributes="_4YbNz3BoEdyb3bUvotEAiw" relationshipEnds="_4YbNpXBoEdyb3bUvotEAiw">
+      <eAnnotations xmi:id="_4YbN03BoEdyb3bUvotEAiw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_4YbN1HBoEdyb3bUvotEAiw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_4YbN1XBoEdyb3bUvotEAiw" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_4YbN1nBoEdyb3bUvotEAiw" key="FK_CHILD_ROLE_NAME" value=""/>
+        <details xmi:id="_4YbN13BoEdyb3bUvotEAiw" key="FK_PARENT_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_4YbN2HBoEdyb3bUvotEAiw" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </keys>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4YbN2XBoEdyb3bUvotEAiw" name="TREQUEST" abbreviation="TREQUEST" package="_4XL3cHBoEdyb3bUvotEAiw" relationshipEnds="_4YbNsnBoEdyb3bUvotEAiw" relationships="_4YbNsHBoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YbN2nBoEdyb3bUvotEAiw" name="ID" description="Unique id for this request generated by using a DB2 Sequence object&#xD;&#xA;" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YbN23BoEdyb3bUvotEAiw" name="IDREQUESTOR" description="id of user that made request. FKey to TUser&#xD;&#xA;" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YbN3HBoEdyb3bUvotEAiw" name="IDAPP" description="Id of application this request was made under&#xD;&#xA;" dataType="SHORT" required="true"/>
+    <attributes xmi:id="_4YbN3XBoEdyb3bUvotEAiw" name="APPROVERTYPE" description="Type of approver:&#xD;&#xA;-MGR: IBM manager to approve Application role request. This will be the only type supported in phase 1.&#xD;&#xA;-IGA: IBM Group Admin to approve Group Profile creation requests, etc&#xD;&#xA;-GM: Group Manager to approve request to join a GP, etc " dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YbN3nBoEdyb3bUvotEAiw" name="REQUESTTYPE" description="Type of request&#xD;&#xA;" dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YbN33BoEdyb3bUvotEAiw" name="IDAPPROVER" description="Identifies the approver. How to use the id is based on the ApproverType:&#xD;&#xA;&#xD;&#xA;-MGR: id (pkey) in TUSER table for the manager. Manager will automatically be added to TUSER (if not already present) when a request is routed to them for their approval.&#xD;&#xA;&#xD;&#xA;-IGA: id of the Shopz IGAPool (defined in XML AppDefinition but not used till phase 2) that identifies the pool of IGA persons needed to approve the request (TIGAPOOL table to contain mapping of pool to users in the pool, again to be created in phase 2)&#xD;&#xA;&#xD;&#xA;-GM: id (pkey) into the TGROUPPROFILE table (to be created in phase 2) that identifies the GroupProfile from which the list of Group Managers can be retrieved" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YbN4HBoEdyb3bUvotEAiw" name="STATUS" description="Status of this request: &#xD;&#xA;-OPEN - Request not yet completed&#xD;&#xA;-APPROVED - request approved&#xD;&#xA;-REJECTED - request rejected &#xD;&#xA;&#xD;&#xA;Other possible:&#xD;&#xA;-COMPLETE - when a 'work' type (create GP) is done. Should we use this instead of APPROVED?&#xD;&#xA;-ARCHIVE - if we do not want to actually delete requests, then APPROVED, REJECTED, COMPLETE requests would go to this status after n days and would no longer display in RAM UI&#xD;&#xA;-DELETED - if we allow for the requestor to delete one of their OPEN requests or should RAM just delete the request from the table?" dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YbN4XBoEdyb3bUvotEAiw" name="REQUESTXML" description="The request in its XML format. The type of this column should be XMLCLOB but Rose does not support it.&#xD;&#xA;&#xD;&#xA;Notes&#xD;&#xA;-By using XML we do not need to have a hodge podge of different columns to support the different request attributes that are unique to each type of request." dataType="CLOB(1024)" required="true"/>
+    <attributes xmi:id="_4YbN4nBoEdyb3bUvotEAiw" name="TSLASTUPDATED" description="timestamp when status of request was last updated&#xD;&#xA;" dataType="TIMESTAMP" defaultValue="CURRENT TIMESTAMP" required="true"/>
+    <attributes xmi:id="_4YbN43BoEdyb3bUvotEAiw" name="TSCREATED" description="timestamp request was created&#xD;&#xA;" dataType="TIMESTAMP" defaultValue="CURRENT TIMESTAMP" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4YbN5HBoEdyb3bUvotEAiw" name="TREQUEST_PK" attributes="_4YbN2nBoEdyb3bUvotEAiw"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_4YbN5XBoEdyb3bUvotEAiw" name="Foreign Key1" attributes="_4YbN23BoEdyb3bUvotEAiw" relationshipEnds="_4YbNsnBoEdyb3bUvotEAiw">
+      <eAnnotations xmi:id="_4YbN5nBoEdyb3bUvotEAiw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_4YbN53BoEdyb3bUvotEAiw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_4YbN6HBoEdyb3bUvotEAiw" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_4YbN6XBoEdyb3bUvotEAiw" key="FK_CHILD_ROLE_NAME" value=""/>
+        <details xmi:id="_4YbN6nBoEdyb3bUvotEAiw" key="FK_PARENT_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_4YbN63BoEdyb3bUvotEAiw" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </keys>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4YbN7HBoEdyb3bUvotEAiw" name="TREQUEST_ARCHIVE" abbreviation="TREQUEST_ARCHIVE" package="_4XL3cHBoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YbN7XBoEdyb3bUvotEAiw" name="REQUESTXML" description="Contains all the data pertaining to the request including the requestor id, final status, creation date, etc.&#xD;&#xA;&#xD;&#xA;should be CLOB" dataType="CLOB(1024)" required="true"/>
+    <attributes xmi:id="_4YbN7nBoEdyb3bUvotEAiw" name="TSCREATED" description="When request was archived&#xD;&#xA;" dataType="TIMESTAMP" defaultValue="CURRENT TIMESTAMP" required="true"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4YbN73BoEdyb3bUvotEAiw" name="TCONTROLDATA" abbreviation="TCONTROLDATA" package="_4XL3cHBoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YbN8HBoEdyb3bUvotEAiw" name="CONTROLKEY" description="Control data key (i.e. &quot;WebIdUserId&quot;)" dataType="ROWID" required="true">
+      <eAnnotations xmi:id="_4YbN8XBoEdyb3bUvotEAiw" source="UDP"/>
+    </attributes>
+    <attributes xmi:id="_4YbN8nBoEdyb3bUvotEAiw" name="VALUE" description="Control data value &#xD;&#xA;" dataType="VARCHAR(256)" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4YbN83BoEdyb3bUvotEAiw" name="TCONTROLDATA_PK" attributes="_4YbN8HBoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4YbN9HBoEdyb3bUvotEAiw" name="TGROUPADMIN" abbreviation="TGROUPADMIN" package="_4XL3cHBoEdyb3bUvotEAiw" relationshipEnds="_4YbNtXBoEdyb3bUvotEAiw" relationships="_4YbNs3BoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YbN9XBoEdyb3bUvotEAiw" name="APPID" description="Application id&#xD;&#xA;" dataType="SHORT" required="true"/>
+    <attributes xmi:id="_4YbN9nBoEdyb3bUvotEAiw" name="POOLID" description="ID of Pool within application&#xD;&#xA;" dataType="SHORT" required="true"/>
+    <attributes xmi:id="_4YbN93BoEdyb3bUvotEAiw" name="USERID" description="Unique id for this user" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4YbN-HBoEdyb3bUvotEAiw" name="TGROUPADMIN_PK" attributes="_4YbN9XBoEdyb3bUvotEAiw _4YbN9nBoEdyb3bUvotEAiw _4YbN93BoEdyb3bUvotEAiw"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_4YbN-XBoEdyb3bUvotEAiw" name="Foreign Key1" description="1 to 1 on TUSER.ID -> TGROUPADMIN.USERID" attributes="_4YbN93BoEdyb3bUvotEAiw" relationshipEnds="_4YbNtXBoEdyb3bUvotEAiw">
+      <eAnnotations xmi:id="_4YbN-nBoEdyb3bUvotEAiw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_4YbN-3BoEdyb3bUvotEAiw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_4YbN_HBoEdyb3bUvotEAiw" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_4YbN_XBoEdyb3bUvotEAiw" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+        <details xmi:id="_4YbN_nBoEdyb3bUvotEAiw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_4YbN_3BoEdyb3bUvotEAiw" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </keys>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4YbOAHBoEdyb3bUvotEAiw" name="TGROUP" abbreviation="TGROUP" package="_4XL3cHBoEdyb3bUvotEAiw" relationshipEnds="_4YbOCnBoEdyb3bUvotEAiw _4YbODXBoEdyb3bUvotEAiw _4YbOEHBoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YbOAXBoEdyb3bUvotEAiw" name="ACTIVATED" description="If 'Y' then this group is considered active and will be returned for requests by the boarding app or the Admin UI pages. Otherwise it is invisible to all but the IGA. When a group is initially created by the &quot;auto-create&quot; group migration process, it will be flagged as inactive ('N'). Once set to 'Y', a group is always activated." dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YbOAnBoEdyb3bUvotEAiw" name="APPID" description="id of application group profile is associated with&#xD;&#xA;" dataType="SHORT" required="true"/>
+    <attributes xmi:id="_4YbOA3BoEdyb3bUvotEAiw" name="CUSTTYPE" description="id of group profile customer type of this group&#xD;&#xA;" dataType="SHORT" required="true"/>
+    <attributes xmi:id="_4YbOBHBoEdyb3bUvotEAiw" name="ID" description="Unique id for the group. Id generated from GROUP_SEQ sequence object.&#xD;&#xA;" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YbOBXBoEdyb3bUvotEAiw" name="ISOCNTRYCODE" description="ISO country code this group is associated with&#xD;&#xA;" dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YbOBnBoEdyb3bUvotEAiw" name="NAME" description="Group name&#xD;&#xA;" dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YbOB3BoEdyb3bUvotEAiw" name="POOLID" description="Id of IBM Group Admin pool to which this group is associated" dataType="SHORT" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4YbOCHBoEdyb3bUvotEAiw" name="TGROUP_PK1" attributes="_4YbOBHBoEdyb3bUvotEAiw" relationshipEnds="_4YbOCnBoEdyb3bUvotEAiw _4YbODXBoEdyb3bUvotEAiw _4YbOEHBoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_4YbOCXBoEdyb3bUvotEAiw" name="Relationship1" relationshipType="NON_IDENTIFYING" existenceOptional="true" owningEntity="_4YbOEnBoEdyb3bUvotEAiw">
+    <relationshipEnds xmi:id="_4YbOCnBoEdyb3bUvotEAiw" cardinality="ONE" entity="_4YbOAHBoEdyb3bUvotEAiw" key="_4YbOCHBoEdyb3bUvotEAiw"/>
+    <relationshipEnds xmi:id="_4YbOC3BoEdyb3bUvotEAiw" deleteAction="CASCADE" cardinality="ZERO_TO_MANY" entity="_4YbOEnBoEdyb3bUvotEAiw" key="_4YbOGXBoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_4YbODHBoEdyb3bUvotEAiw" name="Relationship1" existenceOptional="true" owningEntity="_4YhUM3BoEdyb3bUvotEAiw">
+    <relationshipEnds xmi:id="_4YbODXBoEdyb3bUvotEAiw" cardinality="ONE" entity="_4YbOAHBoEdyb3bUvotEAiw" key="_4YbOCHBoEdyb3bUvotEAiw"/>
+    <relationshipEnds xmi:id="_4YbODnBoEdyb3bUvotEAiw" deleteAction="CASCADE" cardinality="ZERO_TO_MANY" entity="_4YhUM3BoEdyb3bUvotEAiw" key="_4YhUOHBoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_4YbOD3BoEdyb3bUvotEAiw" name="Relationship1" relationshipType="NON_IDENTIFYING" existenceOptional="true" owningEntity="_4YhUP3BoEdyb3bUvotEAiw">
+    <relationshipEnds xmi:id="_4YbOEHBoEdyb3bUvotEAiw" cardinality="ONE" entity="_4YbOAHBoEdyb3bUvotEAiw" key="_4YbOCHBoEdyb3bUvotEAiw"/>
+    <relationshipEnds xmi:id="_4YbOEXBoEdyb3bUvotEAiw" deleteAction="CASCADE" cardinality="ONE_TO_MANY" entity="_4YhUP3BoEdyb3bUvotEAiw" key="_4YhURXBoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_4YbOEnBoEdyb3bUvotEAiw" name="TGROUPROLE" abbreviation="TGROUPROLE" package="_4XL3cHBoEdyb3bUvotEAiw" relationshipEnds="_4YbOC3BoEdyb3bUvotEAiw _4YbNuHBoEdyb3bUvotEAiw _4YhUMXBoEdyb3bUvotEAiw" relationships="_4YbOCXBoEdyb3bUvotEAiw _4YbNtnBoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YbOE3BoEdyb3bUvotEAiw" name="ID" description="Unique id of this user's group role. Generated via the GROUPROLE_SEQ sequence object.&#xD;&#xA;" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YbOFHBoEdyb3bUvotEAiw" name="GROUPID" description="Id for the group&#xD;&#xA;" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YbOFXBoEdyb3bUvotEAiw" name="USERID" description="Id for the group&#xD;&#xA;" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YbOFnBoEdyb3bUvotEAiw" name="ROLEID" description="Id of group role. id=1 reserved for the Group Manager role.&#xD;&#xA;" dataType="SHORT" required="true"/>
+    <attributes xmi:id="_4YbOF3BoEdyb3bUvotEAiw" name="NOTIFY" dataType="ROWID" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4YbOGHBoEdyb3bUvotEAiw" name="TGROUPROLE_PK1" attributes="_4YbOE3BoEdyb3bUvotEAiw" relationshipEnds="_4YhUMXBoEdyb3bUvotEAiw"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_4YbOGXBoEdyb3bUvotEAiw" name="Foreign Key1" attributes="_4YbOFHBoEdyb3bUvotEAiw" relationshipEnds="_4YbOC3BoEdyb3bUvotEAiw">
+      <eAnnotations xmi:id="_4YbOGnBoEdyb3bUvotEAiw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_4YbOG3BoEdyb3bUvotEAiw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_4YbOHHBoEdyb3bUvotEAiw" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_4YbOHXBoEdyb3bUvotEAiw" key="FK_CHILD_ROLE_NAME" value=""/>
+        <details xmi:id="_4YbOHnBoEdyb3bUvotEAiw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_4YbOH3BoEdyb3bUvotEAiw" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </keys>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_4YbOIHBoEdyb3bUvotEAiw" name="Foreign Key2" attributes="_4YbOFXBoEdyb3bUvotEAiw" relationshipEnds="_4YbNuHBoEdyb3bUvotEAiw">
+      <eAnnotations xmi:id="_4YbOIXBoEdyb3bUvotEAiw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_4YbOInBoEdyb3bUvotEAiw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_4YbOI3BoEdyb3bUvotEAiw" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_4YbOJHBoEdyb3bUvotEAiw" key="FK_CHILD_ROLE_NAME" value=""/>
+        <details xmi:id="_4YbOJXBoEdyb3bUvotEAiw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_4YbOJnBoEdyb3bUvotEAiw" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </keys>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_4YhUMHBoEdyb3bUvotEAiw" name="Relationship1" existenceOptional="true" owningEntity="_4YhUTHBoEdyb3bUvotEAiw">
+    <relationshipEnds xmi:id="_4YhUMXBoEdyb3bUvotEAiw" cardinality="ONE" entity="_4YbOEnBoEdyb3bUvotEAiw" key="_4YbOGHBoEdyb3bUvotEAiw"/>
+    <relationshipEnds xmi:id="_4YhUMnBoEdyb3bUvotEAiw" verbPhrase="Verb1" deleteAction="RESTRICT" cardinality="ZERO_TO_MANY" entity="_4YhUTHBoEdyb3bUvotEAiw" key="_4YhUUnBoEdyb3bUvotEAiw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_4YhUM3BoEdyb3bUvotEAiw" name="TRULE" abbreviation="TRULE" package="_4XL3cHBoEdyb3bUvotEAiw" relationshipEnds="_4YbODnBoEdyb3bUvotEAiw" relationships="_4YbODHBoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YhUNHBoEdyb3bUvotEAiw" name="RULEID" description="Id of the rule as defined in the application xml file&#xD;&#xA;" dataType="SHORT" required="true"/>
+    <attributes xmi:id="_4YhUNXBoEdyb3bUvotEAiw" name="GROUPID" description="Unique id for the group&#xD;&#xA;" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YhUNnBoEdyb3bUvotEAiw" name="VALUE" description="Group rule setting value. For CHOICE types, it is the id of the RuleValue as defined in the application xml file. For BOOLEAN types, 0 indicates false, otherwise considered true (should be =1)&#xD;&#xA;" dataType="SHORT" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4YhUN3BoEdyb3bUvotEAiw" name="TRULE_PK1" attributes="_4YhUNXBoEdyb3bUvotEAiw _4YhUNHBoEdyb3bUvotEAiw"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_4YhUOHBoEdyb3bUvotEAiw" name="Foreign Key1" attributes="_4YhUNXBoEdyb3bUvotEAiw" relationshipEnds="_4YbODnBoEdyb3bUvotEAiw">
+      <eAnnotations xmi:id="_4YhUOXBoEdyb3bUvotEAiw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_4YhUOnBoEdyb3bUvotEAiw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_4YhUO3BoEdyb3bUvotEAiw" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_4YhUPHBoEdyb3bUvotEAiw" key="FK_CHILD_ROLE_NAME" value=""/>
+        <details xmi:id="_4YhUPXBoEdyb3bUvotEAiw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_4YhUPnBoEdyb3bUvotEAiw" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </keys>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4YhUP3BoEdyb3bUvotEAiw" name="TCUSTNUM" abbreviation="TCUSTNUM" package="_4XL3cHBoEdyb3bUvotEAiw" relationshipEnds="_4YbOEXBoEdyb3bUvotEAiw" relationships="_4YbOD3BoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YhUQHBoEdyb3bUvotEAiw" name="CUSTNUM" description="Customer number&#xD;&#xA;" dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YhUQXBoEdyb3bUvotEAiw" name="ISOCNTRYCODE" description="ISO country code of customer number&#xD;&#xA;" dataType="ROWID" required="true"/>
+    <attributes xmi:id="_4YhUQnBoEdyb3bUvotEAiw" name="GROUPID" description="Unique id for the group. Indicates which group this customer number is associated with.&#xD;&#xA;" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YhUQ3BoEdyb3bUvotEAiw" name="COMPANYNAME" description="Name of company associated with this customer number at the time the group was created. For Shopz the source is the CATCUS table.&#xD;&#xA;" dataType="ROWID" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4YhURHBoEdyb3bUvotEAiw" name="TCUSTNUM_PK1" attributes="_4YhUQHBoEdyb3bUvotEAiw _4YhUQXBoEdyb3bUvotEAiw"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_4YhURXBoEdyb3bUvotEAiw" name="Foreign Key1" attributes="_4YhUQnBoEdyb3bUvotEAiw" relationshipEnds="_4YbOEXBoEdyb3bUvotEAiw">
+      <eAnnotations xmi:id="_4YhURnBoEdyb3bUvotEAiw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_4YhUR3BoEdyb3bUvotEAiw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_4YhUSHBoEdyb3bUvotEAiw" key="FK_CHILD_MULTIPLICITY" value="1..*"/>
+        <details xmi:id="_4YhUSXBoEdyb3bUvotEAiw" key="FK_CHILD_ROLE_NAME" value=""/>
+        <details xmi:id="_4YhUSnBoEdyb3bUvotEAiw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_4YhUS3BoEdyb3bUvotEAiw" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </keys>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4YhUTHBoEdyb3bUvotEAiw" name="TGROUPEVENTSUB" abbreviation="TGROUPEVENTSUB" package="_4XL3cHBoEdyb3bUvotEAiw" relationshipEnds="_4YhUMnBoEdyb3bUvotEAiw" relationships="_4YhUMHBoEdyb3bUvotEAiw">
+    <attributes xmi:id="_4YhUTXBoEdyb3bUvotEAiw" name="GROUPROLEID" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_4YhUTnBoEdyb3bUvotEAiw" name="EVENTID" dataType="SHORT" required="true"/>
+    <attributes xmi:id="_4YhUUHBoEdyb3bUvotEAiw" name="SUBSCRIBED" dataType="ROWID" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_4YhUUXBoEdyb3bUvotEAiw" name="TGROUPEVENTSUB_PK1" attributes="_4YhUTnBoEdyb3bUvotEAiw _4YhUTXBoEdyb3bUvotEAiw"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_4YhUUnBoEdyb3bUvotEAiw" name="Foreign Key1" attributes="_4YhUTXBoEdyb3bUvotEAiw" relationshipEnds="_4YhUMnBoEdyb3bUvotEAiw">
+      <eAnnotations xmi:id="_4YhUU3BoEdyb3bUvotEAiw" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_4YhUVHBoEdyb3bUvotEAiw" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_4YhUVXBoEdyb3bUvotEAiw" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_4YhUVnBoEdyb3bUvotEAiw" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+        <details xmi:id="_4YhUV3BoEdyb3bUvotEAiw" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_4YhUWHBoEdyb3bUvotEAiw" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </keys>
+  </LogicalDataModel:Entity>
+</xmi:XMI>

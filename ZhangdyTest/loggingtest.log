@@ -1,0 +1,59 @@
+2013-08-06 17:39:05,284 DEBUG test.zhangdy.LoggingTest - 111
+2013-08-06 17:39:05,285 INFO  test.zhangdy.LoggingTest - 222
+2013-08-06 17:39:05,286 WARN  test.zhangdy.LoggingTest - 333
+2013-08-06 17:39:05,286 ERROR test.zhangdy.LoggingTest - 444
+2013-08-06 17:39:05,286 FATAL test.zhangdy.LoggingTest - 555
+2013-08-06 17:42:54,086 DEBUG test.zhangdy.LoggingTest - 111
+2013-08-06 17:42:54,087 INFO  test.zhangdy.LoggingTest - 222
+2013-08-06 17:42:54,087 WARN  test.zhangdy.LoggingTest - 333
+2013-08-06 17:42:54,088 ERROR test.zhangdy.LoggingTest - 444
+2013-08-06 17:42:54,088 FATAL test.zhangdy.LoggingTest - 555
+2013-08-06 17:42:54,093 ERROR test.zhangdy.logging.LoggingAndLog4jTest - This is LoggingAndLog4jTest error.
+2013-08-06 17:42:54,093 FATAL test.zhangdy.logging.LoggingAndLog4jTest - This is LoggingAndLog4jTest fatal.
+2013-08-07 10:22:37,241 DEBUG test.zhangdy.LoggingTest - 111
+2013-08-07 10:22:37,242 INFO  test.zhangdy.LoggingTest - 222
+2013-08-07 10:22:37,243 WARN  test.zhangdy.LoggingTest - 333
+2013-08-07 10:22:37,243 ERROR test.zhangdy.LoggingTest - 444
+2013-08-07 10:22:37,243 FATAL test.zhangdy.LoggingTest - 555
+2013-08-07 10:22:37,278 ERROR test.zhangdy.logging.LoggingAndLog4jTest - This is LoggingAndLog4jTest error.
+2013-08-07 10:22:37,278 FATAL test.zhangdy.logging.LoggingAndLog4jTest - This is LoggingAndLog4jTest fatal.
+2013-08-07 10:24:01,117 DEBUG test.zhangdy.LoggingTest - 111
+2013-08-07 10:24:01,118 INFO  test.zhangdy.LoggingTest - 222
+2013-08-07 10:24:01,118 WARN  test.zhangdy.LoggingTest - 333
+2013-08-07 10:24:01,118 ERROR test.zhangdy.LoggingTest - 444
+2013-08-07 10:24:01,119 FATAL test.zhangdy.LoggingTest - 555
+2013-08-07 10:24:01,121 ERROR test.zhangdy.logging.LoggingAndLog4jTest - This is LoggingAndLog4jTest error.
+2013-08-07 10:24:01,122 FATAL test.zhangdy.logging.LoggingAndLog4jTest - This is LoggingAndLog4jTest fatal.
+2013-08-07 10:25:21,001 DEBUG test.zhangdy.LoggingTest - 111
+2013-08-07 10:25:21,002 INFO  test.zhangdy.LoggingTest - 222
+2013-08-07 10:25:21,002 WARN  test.zhangdy.LoggingTest - 333
+2013-08-07 10:25:21,002 ERROR test.zhangdy.LoggingTest - 444
+2013-08-07 10:25:21,002 FATAL test.zhangdy.LoggingTest - 555
+2013-08-07 10:32:46,869 INFO  test.zhangdy.LoggingTest - 222
+2013-08-07 10:32:46,871 WARN  test.zhangdy.LoggingTest - 333
+2013-08-07 10:32:46,871 ERROR test.zhangdy.LoggingTest - 444
+2013-08-07 10:32:46,871 FATAL test.zhangdy.LoggingTest - 555
+2013-08-07 10:34:02,626 TRACE test.zhangdy.LoggingTest - 0000
+2013-08-07 10:34:02,627 DEBUG test.zhangdy.LoggingTest - 111
+2013-08-07 10:34:02,628 INFO  test.zhangdy.LoggingTest - 222
+2013-08-07 10:34:02,628 WARN  test.zhangdy.LoggingTest - 333
+2013-08-07 10:34:02,628 ERROR test.zhangdy.LoggingTest - 444
+2013-08-07 10:34:02,628 FATAL test.zhangdy.LoggingTest - 555
+2013-08-07 10:50:19,260 WARN  test.zhangdy.LoggingTest - 333
+2013-08-07 10:50:19,262 ERROR test.zhangdy.LoggingTest - 444
+2013-08-07 10:50:19,262 FATAL test.zhangdy.LoggingTest - 555
+2013-08-07 10:53:36,032 DEBUG test.zhangdy.LoggingTest - 111
+2013-08-07 10:53:36,035 INFO  test.zhangdy.LoggingTest - 222
+2013-08-07 10:53:36,035 WARN  test.zhangdy.LoggingTest - 333
+2013-08-07 10:53:36,035 ERROR test.zhangdy.LoggingTest - 444
+2013-08-07 10:53:36,036 FATAL test.zhangdy.LoggingTest - 555
+2013-08-07 11:50:35,955 DEBUG test.zhangdy.LoggingTest - 111
+2013-08-07 11:50:35,956 INFO  test.zhangdy.LoggingTest - 222
+2013-08-07 11:50:35,956 WARN  test.zhangdy.LoggingTest - 333
+2013-08-07 11:50:35,956 ERROR test.zhangdy.LoggingTest - 444
+2013-08-07 11:50:35,956 FATAL test.zhangdy.LoggingTest - 555
+2013-08-07 11:50:36,056 DEBUG test.zhangdy.LoggingTest - Here is some DEBUG
+2013-08-07 11:50:36,058 INFO  test.zhangdy.LoggingTest - Here is some INFO
+2013-08-07 11:50:36,058 WARN  test.zhangdy.LoggingTest - Here is some WARN
+2013-08-07 11:50:36,058 ERROR test.zhangdy.LoggingTest - Here is some ERROR
+2013-08-07 11:50:36,059 FATAL test.zhangdy.LoggingTest - Here is some FATAL

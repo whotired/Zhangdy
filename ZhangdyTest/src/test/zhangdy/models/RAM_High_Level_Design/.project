@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>RAM_High_Level_Design</name>
+	<comment></comment>
+	<projects>
+		<project>ShopPLM_High_Level_Design</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.ibm.sse.model.structuredbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+	</natures>
+</projectDescription>

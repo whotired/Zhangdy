@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Basic_0="http:///Basic_0.profile.uml2" xmlns:Default_0="http:///Default_0.profile.uml2" xmlns:Deployment_0="http:///_yFmwkOvHEdiDX5bji0iVSA.profile.uml2" xmlns:notation="http://www.ibm.com/xtools/1.5.0/Notation" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.0/Umlnotation" xsi:schemaLocation="http:///Basic_0.profile.uml2 pathmap://UML2_PROFILES/Basic.profile.uml2#__LeIQK86Edih9-GG5afQ0g http:///Default_0.profile.uml2 pathmap://UML2_MSL_PROFILES/Default.epx#_bA7Pc9WLEdiy4IqP8whjFA?Default/%3CEPackage%3E http:///_yFmwkOvHEdiDX5bji0iVSA.profile.uml2 pathmap://UML2_MSL_PROFILES/Deployment.epx#_yFy90OvHEdiDX5bji0iVSA?Deployment/%3CEPackage%3E" xmi:id="_nvIdgOw5EduUHtCEfrq_-w" name="RAM System Context" appliedProfile="_nvIdhOw5EduUHtCEfrq_-w _nvIdh-w5EduUHtCEfrq_-w _nvIdiuw5EduUHtCEfrq_-w _nvIdjew5EduUHtCEfrq_-w _nvIdkOw5EduUHtCEfrq_-w">
+  <eAnnotations xmi:id="_nvIdgew5EduUHtCEfrq_-w" source="uml2.diagrams">
+    <contents xmi:type="notation:Diagram" xmi:id="_-p5JEOw5EduUHtCEfrq_-w" type="Deployment" name="RAM System Context Diagram">
+      <children xmi:id="_DrRYQOw6EduUHtCEfrq_-w" sourceEdges="_e6z2QOw7EduUHtCEfrq_-w _urMB8Ow_EduUHtCEfrq_-w _0RdFoPHLEduGM4kJLIqR5w _0xLcoPHNEduGM4kJLIqR5w" targetEdges="_io1f0Ow-EduUHtCEfrq_-w _J5kUQOw_EduUHtCEfrq_-w _BA0c0Ow9EduUHtCEfrq_-w _4H_a8Ow8EduUHtCEfrq_-w _HqhokPHLEduGM4kJLIqR5w _w507IPHOEduGM4kJLIqR5w" element="_DhntAOw6EduUHtCEfrq_-w">
+        <children xmi:id="_DrXe4Ow6EduUHtCEfrq_-w" type="ImageCompartment" element="_DhntAOw6EduUHtCEfrq_-w">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_DrXe4ew6EduUHtCEfrq_-w" width="1320" height="1320"/>
+        </children>
+        <children xmi:id="_DrXe4uw6EduUHtCEfrq_-w" type="Stereotype" element="_DhntAOw6EduUHtCEfrq_-w"/>
+        <children xmi:id="_DrXe4-w6EduUHtCEfrq_-w" type="Name" element="_DhntAOw6EduUHtCEfrq_-w"/>
+        <children xmi:id="_DrXe5Ow6EduUHtCEfrq_-w" visible="false" type="AttributeCompartment" element="_DhntAOw6EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_DrXe5ew6EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_DrXe5uw6EduUHtCEfrq_-w" visible="false" type="DeploymentListCompartment" element="_DhntAOw6EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_DrXe5-w6EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_DrXe6Ow6EduUHtCEfrq_-w" visible="false" type="NestedNodeListCompartment" element="_DhntAOw6EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_DrXe6ew6EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_DrdlgOw6EduUHtCEfrq_-w" visible="false" type="StructureCompartment" element="_DhntAOw6EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_Drdlgew6EduUHtCEfrq_-w"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_DrRYQew6EduUHtCEfrq_-w" showStereotype="Image"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DrRYQuw6EduUHtCEfrq_-w" x="6996" y="6360" width="3069" height="2356"/>
+      </children>
+      <children xmi:id="_61mioOw6EduUHtCEfrq_-w" targetEdges="_e6z2QOw7EduUHtCEfrq_-w" element="_6E5ecOw6EduUHtCEfrq_-w">
+        <children xmi:id="_61mio-w6EduUHtCEfrq_-w" type="ImageCompartment" element="_6E5ecOw6EduUHtCEfrq_-w">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_61mipOw6EduUHtCEfrq_-w" width="1320" height="1320"/>
+        </children>
+        <children xmi:id="_61mipew6EduUHtCEfrq_-w" type="Stereotype" element="_6E5ecOw6EduUHtCEfrq_-w"/>
+        <children xmi:id="_61mipuw6EduUHtCEfrq_-w" type="Name" element="_6E5ecOw6EduUHtCEfrq_-w"/>
+        <children xmi:id="_61mip-w6EduUHtCEfrq_-w" visible="false" type="AttributeCompartment" element="_6E5ecOw6EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_61miqOw6EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_61miqew6EduUHtCEfrq_-w" visible="false" type="DeploymentListCompartment" element="_6E5ecOw6EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_61miquw6EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_61miq-w6EduUHtCEfrq_-w" visible="false" type="NestedNodeListCompartment" element="_6E5ecOw6EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_61mirOw6EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_61mirew6EduUHtCEfrq_-w" visible="false" type="StructureCompartment" element="_6E5ecOw6EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_61miruw6EduUHtCEfrq_-w"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_61mioew6EduUHtCEfrq_-w" showStereotype="Image"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_61miouw6EduUHtCEfrq_-w" x="3498" y="1590"/>
+      </children>
+      <children xmi:id="_jLlScOw8EduUHtCEfrq_-w" sourceEdges="_J5kUQOw_EduUHtCEfrq_-w" element="_x3JkcOw7EduUHtCEfrq_-w">
+        <children xmi:id="_jLlSc-w8EduUHtCEfrq_-w" type="ImageCompartment" element="_x3JkcOw7EduUHtCEfrq_-w">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_jLlSdOw8EduUHtCEfrq_-w" width="1320" height="1320"/>
+        </children>
+        <children xmi:id="_jLlSdew8EduUHtCEfrq_-w" type="Stereotype" element="_x3JkcOw7EduUHtCEfrq_-w"/>
+        <children xmi:id="_jLlSduw8EduUHtCEfrq_-w" type="Name" element="_x3JkcOw7EduUHtCEfrq_-w"/>
+        <children xmi:id="_jLlSd-w8EduUHtCEfrq_-w" visible="false" type="AttributeCompartment" element="_x3JkcOw7EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_jLlSeOw8EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_jLlSeew8EduUHtCEfrq_-w" visible="false" type="DeploymentListCompartment" element="_x3JkcOw7EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_jLlSeuw8EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_jLlSe-w8EduUHtCEfrq_-w" visible="false" type="NestedNodeListCompartment" element="_x3JkcOw7EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_jLlSfOw8EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_jLlSfew8EduUHtCEfrq_-w" visible="false" type="StructureCompartment" element="_x3JkcOw7EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_jLlSfuw8EduUHtCEfrq_-w"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_jLlScew8EduUHtCEfrq_-w" showStereotype="Image"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jLlScuw8EduUHtCEfrq_-w" x="2226" y="7314"/>
+      </children>
+      <children xmi:id="_jif9oOw8EduUHtCEfrq_-w" sourceEdges="_BA0c0Ow9EduUHtCEfrq_-w _4H_a8Ow8EduUHtCEfrq_-w" targetEdges="_0xLcoPHNEduGM4kJLIqR5w" element="_ciA9cOw8EduUHtCEfrq_-w">
+        <children xmi:id="_jif9o-w8EduUHtCEfrq_-w" type="ImageCompartment" element="_ciA9cOw8EduUHtCEfrq_-w">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_jif9pOw8EduUHtCEfrq_-w" width="1320" height="1320"/>
+        </children>
+        <children xmi:id="_jif9pew8EduUHtCEfrq_-w" type="Stereotype" element="_ciA9cOw8EduUHtCEfrq_-w"/>
+        <children xmi:id="_jif9puw8EduUHtCEfrq_-w" type="Name" element="_ciA9cOw8EduUHtCEfrq_-w"/>
+        <children xmi:id="_jif9p-w8EduUHtCEfrq_-w" visible="false" type="AttributeCompartment" element="_ciA9cOw8EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_jif9qOw8EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_jif9qew8EduUHtCEfrq_-w" visible="false" type="DeploymentListCompartment" element="_ciA9cOw8EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_jif9quw8EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_jif9q-w8EduUHtCEfrq_-w" visible="false" type="NestedNodeListCompartment" element="_ciA9cOw8EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_jif9rOw8EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_jif9rew8EduUHtCEfrq_-w" visible="false" type="StructureCompartment" element="_ciA9cOw8EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_jif9ruw8EduUHtCEfrq_-w"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_jif9oew8EduUHtCEfrq_-w" showStereotype="Image"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jif9ouw8EduUHtCEfrq_-w" x="6678" y="12402"/>
+      </children>
+      <children xmi:id="_klWhwOw8EduUHtCEfrq_-w" sourceEdges="_io1f0Ow-EduUHtCEfrq_-w" element="_ekd9YOw8EduUHtCEfrq_-w">
+        <children xmi:id="_klWhw-w8EduUHtCEfrq_-w" type="ImageCompartment" element="_ekd9YOw8EduUHtCEfrq_-w">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_klWhxOw8EduUHtCEfrq_-w" width="1320" height="1320"/>
+        </children>
+        <children xmi:id="_klWhxew8EduUHtCEfrq_-w" type="Stereotype" element="_ekd9YOw8EduUHtCEfrq_-w"/>
+        <children xmi:id="_klWhxuw8EduUHtCEfrq_-w" type="Name" element="_ekd9YOw8EduUHtCEfrq_-w"/>
+        <children xmi:id="_klWhx-w8EduUHtCEfrq_-w" visible="false" type="AttributeCompartment" element="_ekd9YOw8EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_klWhyOw8EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_klWhyew8EduUHtCEfrq_-w" visible="false" type="DeploymentListCompartment" element="_ekd9YOw8EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_klWhyuw8EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_klWhy-w8EduUHtCEfrq_-w" visible="false" type="NestedNodeListCompartment" element="_ekd9YOw8EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_klWhzOw8EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_klcoYOw8EduUHtCEfrq_-w" visible="false" type="StructureCompartment" element="_ekd9YOw8EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_klcoYew8EduUHtCEfrq_-w"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_klWhwew8EduUHtCEfrq_-w" showStereotype="Image"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_klWhwuw8EduUHtCEfrq_-w" x="14628" y="4134"/>
+      </children>
+      <children xmi:id="_uqtg0Ow_EduUHtCEfrq_-w" targetEdges="_urMB8Ow_EduUHtCEfrq_-w" element="_Z9GpUOw_EduUHtCEfrq_-w">
+        <children xmi:id="_uqtg0-w_EduUHtCEfrq_-w" type="ImageCompartment" element="_Z9GpUOw_EduUHtCEfrq_-w">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_uqtg1Ow_EduUHtCEfrq_-w" width="1320" height="1320"/>
+        </children>
+        <children xmi:id="_uqtg1ew_EduUHtCEfrq_-w" type="Stereotype" element="_Z9GpUOw_EduUHtCEfrq_-w"/>
+        <children xmi:id="_uqtg1uw_EduUHtCEfrq_-w" type="Name" element="_Z9GpUOw_EduUHtCEfrq_-w"/>
+        <children xmi:id="_uqtg1-w_EduUHtCEfrq_-w" visible="false" type="AttributeCompartment" element="_Z9GpUOw_EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_uqtg2Ow_EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_uqtg2ew_EduUHtCEfrq_-w" visible="false" type="DeploymentListCompartment" element="_Z9GpUOw_EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_uqtg2uw_EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_uqtg2-w_EduUHtCEfrq_-w" visible="false" type="NestedNodeListCompartment" element="_Z9GpUOw_EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_uqtg3Ow_EduUHtCEfrq_-w"/>
+        </children>
+        <children xmi:id="_uqtg3ew_EduUHtCEfrq_-w" visible="false" type="StructureCompartment" element="_Z9GpUOw_EduUHtCEfrq_-w">
+          <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_uqtg3uw_EduUHtCEfrq_-w"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_uqtg0ew_EduUHtCEfrq_-w" showStereotype="Image"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uqtg0uw_EduUHtCEfrq_-w" x="9858" y="1590"/>
+      </children>
+      <children xmi:id="_HqPUsPHLEduGM4kJLIqR5w" sourceEdges="_HqhokPHLEduGM4kJLIqR5w" targetEdges="_0RdFoPHLEduGM4kJLIqR5w" element="_3M0gAPHKEduGM4kJLIqR5w">
+        <children xmi:id="_HqPUs_HLEduGM4kJLIqR5w" type="ImageCompartment" element="_3M0gAPHKEduGM4kJLIqR5w">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_HqPUtPHLEduGM4kJLIqR5w" width="1320" height="1320"/>
+        </children>
+        <children xmi:id="_HqPUtfHLEduGM4kJLIqR5w" type="Stereotype" element="_3M0gAPHKEduGM4kJLIqR5w"/>
+        <children xmi:id="_HqPUtvHLEduGM4kJLIqR5w" type="Name" element="_3M0gAPHKEduGM4kJLIqR5w"/>
+        <children xmi:id="_HqPUt_HLEduGM4kJLIqR5w" visible="false" type="AttributeCompartment" element="_3M0gAPHKEduGM4kJLIqR5w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_HqPUuPHLEduGM4kJLIqR5w"/>
+        </children>
+        <children xmi:id="_HqPUufHLEduGM4kJLIqR5w" visible="false" type="DeploymentListCompartment" element="_3M0gAPHKEduGM4kJLIqR5w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_HqPUuvHLEduGM4kJLIqR5w"/>
+        </children>
+        <children xmi:id="_HqPUu_HLEduGM4kJLIqR5w" visible="false" type="NestedNodeListCompartment" element="_3M0gAPHKEduGM4kJLIqR5w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_HqPUvPHLEduGM4kJLIqR5w"/>
+        </children>
+        <children xmi:id="_HqPUvfHLEduGM4kJLIqR5w" visible="false" type="StructureCompartment" element="_3M0gAPHKEduGM4kJLIqR5w">
+          <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_HqPUvvHLEduGM4kJLIqR5w"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_HqPUsfHLEduGM4kJLIqR5w" showStereotype="Image"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HqPUsvHLEduGM4kJLIqR5w" x="15264" y="6996"/>
+      </children>
+      <children xmi:id="_pmzZcPHOEduGM4kJLIqR5w" sourceEdges="_w507IPHOEduGM4kJLIqR5w" element="_li10wfHOEduGM4kJLIqR5w">
+        <children xmi:id="_pmzZc_HOEduGM4kJLIqR5w" type="ImageCompartment" element="_li10wfHOEduGM4kJLIqR5w">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_pmzZdPHOEduGM4kJLIqR5w" width="1320" height="1320"/>
+        </children>
+        <children xmi:id="_pmzZdfHOEduGM4kJLIqR5w" type="Stereotype" element="_li10wfHOEduGM4kJLIqR5w"/>
+        <children xmi:id="_pmzZdvHOEduGM4kJLIqR5w" type="Name" element="_li10wfHOEduGM4kJLIqR5w"/>
+        <children xmi:id="_pmzZd_HOEduGM4kJLIqR5w" visible="false" type="AttributeCompartment" element="_li10wfHOEduGM4kJLIqR5w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_pmzZePHOEduGM4kJLIqR5w"/>
+        </children>
+        <children xmi:id="_pmzZefHOEduGM4kJLIqR5w" visible="false" type="DeploymentListCompartment" element="_li10wfHOEduGM4kJLIqR5w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_pmzZevHOEduGM4kJLIqR5w"/>
+        </children>
+        <children xmi:id="_pmzZe_HOEduGM4kJLIqR5w" visible="false" type="NestedNodeListCompartment" element="_li10wfHOEduGM4kJLIqR5w">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_pmzZfPHOEduGM4kJLIqR5w"/>
+        </children>
+        <children xmi:id="_pmzZffHOEduGM4kJLIqR5w" visible="false" type="StructureCompartment" element="_li10wfHOEduGM4kJLIqR5w">
+          <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_pmzZfvHOEduGM4kJLIqR5w"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_pmzZcfHOEduGM4kJLIqR5w" showStereotype="Image"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pmzZcvHOEduGM4kJLIqR5w" x="13992" y="9858"/>
+      </children>
+      <children xmi:id="_BR03UGeOEdyIJoj6Ru7aIg" element="_8l8XAGeNEdyIJoj6Ru7aIg">
+        <children xmi:id="_BR03U2eOEdyIJoj6Ru7aIg" type="ImageCompartment" element="_8l8XAGeNEdyIJoj6Ru7aIg">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_BR03VGeOEdyIJoj6Ru7aIg" width="1320" height="1320"/>
+        </children>
+        <children xmi:id="_BR03VWeOEdyIJoj6Ru7aIg" type="Stereotype" element="_8l8XAGeNEdyIJoj6Ru7aIg"/>
+        <children xmi:id="_BR03VmeOEdyIJoj6Ru7aIg" type="Name" element="_8l8XAGeNEdyIJoj6Ru7aIg"/>
+        <children xmi:id="_BR03V2eOEdyIJoj6Ru7aIg" visible="false" type="AttributeCompartment" element="_8l8XAGeNEdyIJoj6Ru7aIg">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_BR03WGeOEdyIJoj6Ru7aIg"/>
+        </children>
+        <children xmi:id="_BR03WWeOEdyIJoj6Ru7aIg" visible="false" type="DeploymentListCompartment" element="_8l8XAGeNEdyIJoj6Ru7aIg">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_BR03WmeOEdyIJoj6Ru7aIg"/>
+        </children>
+        <children xmi:id="_BR03W2eOEdyIJoj6Ru7aIg" visible="false" type="NestedNodeListCompartment" element="_8l8XAGeNEdyIJoj6Ru7aIg">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_BR03XGeOEdyIJoj6Ru7aIg"/>
+        </children>
+        <children xmi:id="_BR03XWeOEdyIJoj6Ru7aIg" visible="false" type="StructureCompartment" element="_8l8XAGeNEdyIJoj6Ru7aIg">
+          <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_BR03XmeOEdyIJoj6Ru7aIg"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_BR03UWeOEdyIJoj6Ru7aIg" fillColor="12560536" showStereotype="Image"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BR03UmeOEdyIJoj6Ru7aIg" x="6652" y="13356" width="3916"/>
+      </children>
+      <children xmi:id="_HbsjIGePEdyIJoj6Ru7aIg" type="Note">
+        <children xmi:id="_HbsjI2ePEdyIJoj6Ru7aIg" type="DiagramName"/>
+        <children xmi:id="_HbsjJGePEdyIJoj6Ru7aIg" type="Description"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_HbsjIWePEdyIJoj6Ru7aIg" description="For RAM 2.0 the significant change is that we will be supporting the management and accessing of group profiles and opening up RAM to external users (and thus need to use Web Identity)." fillColor="13369343" lineColor="6737151"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HbsjImePEdyIJoj6Ru7aIg" x="14310" y="954" width="5396"/>
+      </children>
+      <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_-p_PsOw5EduUHtCEfrq_-w"/>
+      <edges xmi:id="_e6z2QOw7EduUHtCEfrq_-w" element="_e6bbwOw7EduUHtCEfrq_-w" source="_DrRYQOw6EduUHtCEfrq_-w" target="_61mioOw6EduUHtCEfrq_-w">
+        <children xmi:id="_e6z2Q-w7EduUHtCEfrq_-w" type="KindLabel" element="_e6bbwOw7EduUHtCEfrq_-w">
+          <children xmi:id="_e6z2Rew7EduUHtCEfrq_-w" type="Stereotype" element="_e6bbwOw7EduUHtCEfrq_-w"/>
+          <children xmi:id="_e6z2R-w7EduUHtCEfrq_-w" type="Kind" element="_e6bbwOw7EduUHtCEfrq_-w"/>
+          <children xmi:id="_e6z2Ruw7EduUHtCEfrq_-w" type="Name" element="_e6bbwOw7EduUHtCEfrq_-w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e6z2ROw7EduUHtCEfrq_-w" y="-185"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_e6z2Qew7EduUHtCEfrq_-w" lineColor="10265827" showStereotype="Text"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_e6z2Quw7EduUHtCEfrq_-w" points="[17, 20, -124, -179]$[192, 164, 51, -35]"/>
+      </edges>
+      <edges xmi:id="_4H_a8Ow8EduUHtCEfrq_-w" element="_4HtHEOw8EduUHtCEfrq_-w" source="_jif9oOw8EduUHtCEfrq_-w" target="_DrRYQOw6EduUHtCEfrq_-w">
+        <children xmi:id="_4H_a8-w8EduUHtCEfrq_-w" type="KindLabel" element="_4HtHEOw8EduUHtCEfrq_-w">
+          <children xmi:id="_4H_a9ew8EduUHtCEfrq_-w" type="Stereotype" element="_4HtHEOw8EduUHtCEfrq_-w"/>
+          <children xmi:id="_4H_a9-w8EduUHtCEfrq_-w" type="Kind" element="_4HtHEOw8EduUHtCEfrq_-w"/>
+          <children xmi:id="_4H_a9uw8EduUHtCEfrq_-w" type="Name" element="_4HtHEOw8EduUHtCEfrq_-w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4H_a9Ow8EduUHtCEfrq_-w" x="-124" y="447"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_4H_a8ew8EduUHtCEfrq_-w" showStereotype="Text"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4H_a8uw8EduUHtCEfrq_-w" points="[-185, -318, -52, 4947]$[-1112, -2170, -979, 3095]$[-477, -4154, -344, 1111]"/>
+      </edges>
+      <edges xmi:id="_BA0c0Ow9EduUHtCEfrq_-w" element="_BAoPkOw9EduUHtCEfrq_-w" source="_jif9oOw8EduUHtCEfrq_-w" target="_DrRYQOw6EduUHtCEfrq_-w">
+        <children xmi:id="_BA0c0-w9EduUHtCEfrq_-w" type="KindLabel" element="_BAoPkOw9EduUHtCEfrq_-w">
+          <children xmi:id="_BA0c1ew9EduUHtCEfrq_-w" type="Stereotype" element="_BAoPkOw9EduUHtCEfrq_-w"/>
+          <children xmi:id="_BA0c1-w9EduUHtCEfrq_-w" type="Kind" element="_BAoPkOw9EduUHtCEfrq_-w"/>
+          <children xmi:id="_BA0c1uw9EduUHtCEfrq_-w" type="Name" element="_BAoPkOw9EduUHtCEfrq_-w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BA0c1Ow9EduUHtCEfrq_-w" x="698" y="899"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_BA0c0ew9EduUHtCEfrq_-w" showStereotype="Text"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BA0c0uw9EduUHtCEfrq_-w" points="[211, -318, 344, 4947]$[1534, -2249, 1667, 3016]$[476, -4154, 609, 1111]"/>
+      </edges>
+      <edges xmi:id="_io1f0Ow-EduUHtCEfrq_-w" element="_iodFUOw-EduUHtCEfrq_-w" source="_klWhwOw8EduUHtCEfrq_-w" target="_DrRYQOw6EduUHtCEfrq_-w">
+        <children xmi:id="_io1f0-w-EduUHtCEfrq_-w" type="KindLabel" element="_iodFUOw-EduUHtCEfrq_-w">
+          <children xmi:id="_io1f1ew-EduUHtCEfrq_-w" type="Stereotype" element="_iodFUOw-EduUHtCEfrq_-w"/>
+          <children xmi:id="_io1f1-w-EduUHtCEfrq_-w" type="Kind" element="_iodFUOw-EduUHtCEfrq_-w"/>
+          <children xmi:id="_io1f1uw-EduUHtCEfrq_-w" type="Name" element="_iodFUOw-EduUHtCEfrq_-w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_io1f1Ow-EduUHtCEfrq_-w" y="-185"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_io1f0ew-EduUHtCEfrq_-w" showStereotype="Text"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_io1f0uw-EduUHtCEfrq_-w" points="[-33, 11, 190, -59]$[-171, 68, 52, -2]"/>
+      </edges>
+      <edges xmi:id="_J5kUQOw_EduUHtCEfrq_-w" element="_J5SAYOw_EduUHtCEfrq_-w" source="_jLlScOw8EduUHtCEfrq_-w" target="_DrRYQOw6EduUHtCEfrq_-w">
+        <children xmi:id="_J5kUQ-w_EduUHtCEfrq_-w" type="KindLabel" element="_J5SAYOw_EduUHtCEfrq_-w">
+          <children xmi:id="_J5kURew_EduUHtCEfrq_-w" type="Stereotype" element="_J5SAYOw_EduUHtCEfrq_-w"/>
+          <children xmi:id="_J5kUR-w_EduUHtCEfrq_-w" type="Kind" element="_J5SAYOw_EduUHtCEfrq_-w"/>
+          <children xmi:id="_J5kURuw_EduUHtCEfrq_-w" type="Name" element="_J5SAYOw_EduUHtCEfrq_-w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5kUROw_EduUHtCEfrq_-w" y="-185"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_J5kUQew_EduUHtCEfrq_-w" showStereotype="Text"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_J5kUQuw_EduUHtCEfrq_-w" points="[33, -2, -166, 11]$[149, -12, -50, 1]"/>
+      </edges>
+      <edges xmi:id="_urMB8Ow_EduUHtCEfrq_-w" element="_Z9Y9NOw_EduUHtCEfrq_-w" source="_DrRYQOw6EduUHtCEfrq_-w" target="_uqtg0Ow_EduUHtCEfrq_-w">
+        <children xmi:id="_urMB8-w_EduUHtCEfrq_-w" type="KindLabel" element="_Z9Y9NOw_EduUHtCEfrq_-w">
+          <children xmi:id="_urMB9ew_EduUHtCEfrq_-w" type="Stereotype" element="_Z9Y9NOw_EduUHtCEfrq_-w"/>
+          <children xmi:id="_urMB9-w_EduUHtCEfrq_-w" type="Kind" element="_Z9Y9NOw_EduUHtCEfrq_-w"/>
+          <children xmi:id="_urMB9uw_EduUHtCEfrq_-w" type="Name" element="_Z9Y9NOw_EduUHtCEfrq_-w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_urMB9Ow_EduUHtCEfrq_-w" x="145" y="64"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_urMB8ew_EduUHtCEfrq_-w" fontColor="16711680" lineColor="12560536" showStereotype="Text"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_urMB8uw_EduUHtCEfrq_-w" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      </edges>
+      <edges xmi:id="_HqhokPHLEduGM4kJLIqR5w" element="_3M0gBvHKEduGM4kJLIqR5w" source="_HqPUsPHLEduGM4kJLIqR5w" target="_DrRYQOw6EduUHtCEfrq_-w">
+        <children xmi:id="_Hqhok_HLEduGM4kJLIqR5w" type="KindLabel" element="_3M0gBvHKEduGM4kJLIqR5w">
+          <children xmi:id="_HqholfHLEduGM4kJLIqR5w" type="Stereotype" element="_3M0gBvHKEduGM4kJLIqR5w"/>
+          <children xmi:id="_Hqhol_HLEduGM4kJLIqR5w" type="Kind" element="_3M0gBvHKEduGM4kJLIqR5w"/>
+          <children xmi:id="_HqholvHLEduGM4kJLIqR5w" type="Name" element="_3M0gBvHKEduGM4kJLIqR5w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HqholPHLEduGM4kJLIqR5w" x="-59" y="-462"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_HqhokfHLEduGM4kJLIqR5w" showStereotype="Text"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HqhokvHLEduGM4kJLIqR5w" points="[-926, 106, 6906, 423]$[-3757, 397, 4075, 714]$[-6456, -79, 1376, 238]"/>
+      </edges>
+      <edges xmi:id="_0RdFoPHLEduGM4kJLIqR5w" element="_0RQ4YPHLEduGM4kJLIqR5w" source="_DrRYQOw6EduUHtCEfrq_-w" target="_HqPUsPHLEduGM4kJLIqR5w">
+        <children xmi:id="_0RdFo_HLEduGM4kJLIqR5w" type="KindLabel" element="_0RQ4YPHLEduGM4kJLIqR5w">
+          <children xmi:id="_0RdFpfHLEduGM4kJLIqR5w" type="Stereotype" element="_0RQ4YPHLEduGM4kJLIqR5w"/>
+          <children xmi:id="_0RdFp_HLEduGM4kJLIqR5w" type="Kind" element="_0RQ4YPHLEduGM4kJLIqR5w"/>
+          <children xmi:id="_0RdFpvHLEduGM4kJLIqR5w" type="Name" element="_0RQ4YPHLEduGM4kJLIqR5w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0RdFpPHLEduGM4kJLIqR5w" x="479" y="493"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_0RdFofHLEduGM4kJLIqR5w" showStereotype="Text"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0RdFovHLEduGM4kJLIqR5w" points="[1376, -186, -6456, -503]$[5080, -688, -2752, -1005]$[6906, 0, -926, -317]"/>
+      </edges>
+      <edges xmi:id="_0xLcoPHNEduGM4kJLIqR5w" element="_0w4hsPHNEduGM4kJLIqR5w" source="_DrRYQOw6EduUHtCEfrq_-w" target="_jif9oOw8EduUHtCEfrq_-w">
+        <children xmi:id="_0xLco_HNEduGM4kJLIqR5w" type="KindLabel" element="_0w4hsPHNEduGM4kJLIqR5w">
+          <children xmi:id="_0xLcpfHNEduGM4kJLIqR5w" type="Stereotype" element="_0w4hsPHNEduGM4kJLIqR5w"/>
+          <children xmi:id="_0xLcp_HNEduGM4kJLIqR5w" type="Kind" element="_0w4hsPHNEduGM4kJLIqR5w"/>
+          <children xmi:id="_0xLcpvHNEduGM4kJLIqR5w" type="Name" element="_0w4hsPHNEduGM4kJLIqR5w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0xLcpPHNEduGM4kJLIqR5w" x="-506" y="-48"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_0xLcofHNEduGM4kJLIqR5w" showStereotype="Text"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0xLcovHNEduGM4kJLIqR5w" points="[-1217, 1111, -1350, -4154]$[-2884, 2593, -3017, -2672]$[-238, 4947, -371, -318]"/>
+      </edges>
+      <edges xmi:id="_w507IPHOEduGM4kJLIqR5w" element="_w5u0gPHOEduGM4kJLIqR5w" source="_pmzZcPHOEduGM4kJLIqR5w" target="_DrRYQOw6EduUHtCEfrq_-w">
+        <children xmi:id="_w507I_HOEduGM4kJLIqR5w" type="KindLabel" element="_w5u0gPHOEduGM4kJLIqR5w">
+          <children xmi:id="_w507JfHOEduGM4kJLIqR5w" type="Stereotype" element="_w5u0gPHOEduGM4kJLIqR5w"/>
+          <children xmi:id="_w507J_HOEduGM4kJLIqR5w" type="Kind" element="_w5u0gPHOEduGM4kJLIqR5w"/>
+          <children xmi:id="_w507JvHOEduGM4kJLIqR5w" type="Name" element="_w5u0gPHOEduGM4kJLIqR5w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w507JPHOEduGM4kJLIqR5w" y="-185"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_w507IfHOEduGM4kJLIqR5w" showStereotype="Text"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_w507IvHOEduGM4kJLIqR5w" points="[-26, -13, 256, 112]$[-230, -118, 52, 7]"/>
+      </edges>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_nvIdhOw5EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_nvIdhew5EduUHtCEfrq_-w" source="attributes">
+      <details xmi:id="_nvIdhuw5EduUHtCEfrq_-w" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML2_PROFILES/Basic.profile.uml2#_6mFRgK86Edih9-GG5afQ0g"/>
+    <importedProfile href="pathmap://UML2_PROFILES/Basic.profile.uml2#_6mFRgK86Edih9-GG5afQ0g"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_nvIdh-w5EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_nvIdiOw5EduUHtCEfrq_-w" source="attributes">
+      <details xmi:id="_nvIdiew5EduUHtCEfrq_-w" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML2_PROFILES/Intermediate.profile.uml2#_Cz7csK87Edih9-GG5afQ0g"/>
+    <importedProfile href="pathmap://UML2_PROFILES/Intermediate.profile.uml2#_Cz7csK87Edih9-GG5afQ0g"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_nvIdiuw5EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_nvIdi-w5EduUHtCEfrq_-w" source="attributes">
+      <details xmi:id="_nvIdjOw5EduUHtCEfrq_-w" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML2_PROFILES/Complete.profile.uml2#_M7pTkK87Edih9-GG5afQ0g"/>
+    <importedProfile href="pathmap://UML2_PROFILES/Complete.profile.uml2#_M7pTkK87Edih9-GG5afQ0g"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_nvIdjew5EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_nvIdjuw5EduUHtCEfrq_-w" source="attributes">
+      <details xmi:id="_nvIdj-w5EduUHtCEfrq_-w" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default"/>
+    <importedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_nvIdkOw5EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_nvIdkew5EduUHtCEfrq_-w" source="attributes">
+      <details xmi:id="_nvIdkuw5EduUHtCEfrq_-w" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment"/>
+    <importedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment"/>
+  </packageImport>
+  <packageImport xmi:id="_nvIdk-w5EduUHtCEfrq_-w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_EfRZoK86EdieaYgxtVWN8Q"/>
+  </packageImport>
+  <ownedMember xmi:type="uml:Node" xmi:id="_DhntAOw6EduUHtCEfrq_-w" name="RAM" clientDependency="_e6bbwOw7EduUHtCEfrq_-w _Z9Y9NOw_EduUHtCEfrq_-w _0RQ4YPHLEduGM4kJLIqR5w _0w4hsPHNEduGM4kJLIqR5w">
+    <ownedComment xmi:id="_Q16NkOw6EduUHtCEfrq_-w" body="First Point of Contact:  RAM Application Architect: Richard Kelly/Boulder/IBM&#xD;&#xA;Type:  J2EE Web Application&#xD;&#xA;&#xD;&#xA;Description:&#xD;&#xA;RAM is an evolving worldwide web application currently used by IBMers to:&#xD;&#xA;•&#x9;subscribe to be notified when customers submit product and/or service orders through ShopzSeries&#xD;&#xA;•&#x9;request authorization to create and submit ShopPLM orders&#xD;&#xA;&#xD;&#xA;Refer to the Software Ordering Tools (SWOT) Teamroom, Architecture category, RAM Architecture Documents for more details about the RAM architecture." annotatedElement="_DhntAOw6EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_Q16Nkew6EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_Q16Nkuw6EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Node" xmi:id="_6E5ecOw6EduUHtCEfrq_-w" name="ShopPLM" clientDependency="_6E_lIOw6EduUHtCEfrq_-w _6E_lH-w6EduUHtCEfrq_-w _6E_lFuw6EduUHtCEfrq_-w _6FFrt-w6EduUHtCEfrq_-w _6FFrsuw6EduUHtCEfrq_-w _6FFrtuw6EduUHtCEfrq_-w _6FFrtew6EduUHtCEfrq_-w _6E_lGew6EduUHtCEfrq_-w _6E_lEOw6EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="__EEuMOw6EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="__EEuMew6EduUHtCEfrq_-w" key="Application"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_6E5ecew6EduUHtCEfrq_-w" body="First Point of Contact:  ShopPLM Application Architect: Ryan Hodgin/Boulder/IBM&#xD;&#xA;Type:  J2EE Web Application&#xD;&#xA;&#xD;&#xA;Description:&#xD;&#xA;ShopPLM is an evolving worldwide web application currently used by IBMers to:&#xD;&#xA;•&#x9;plan PLM product upgrades&#xD;&#xA;•&#x9;order products from various PLM families&#xD;&#xA;•&#x9;and more....&#xD;&#xA;&#xD;&#xA;Refer to the Software Ordering Tools (SWOT) Teamroom, Architecture category, ShopPLM Architecture Documents for more details about the ShopPLM architecture.&#xD;&#xA;" annotatedElement="_6E5ecOw6EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_6E5ecuw6EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_6E5ec-w6EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+    <ownedAttribute xmi:id="_6E5edOw6EduUHtCEfrq_-w" name="ram" visibility="private">
+      <type xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_sF2QsEBDEduOtt2XXOfTpQ?PLM%20System%20Context/RAM"/>
+    </ownedAttribute>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_6E_lEOw6EduUHtCEfrq_-w" name="transform to XML" client="_6E5ecOw6EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_6E_lEew6EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_6E_lEuw6EduUHtCEfrq_-w" key="transform"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_6E_lE-w6EduUHtCEfrq_-w" body="ShopPLM will use eFF to transform the order acknowledgement message from the FEOI format to the XML format that it is expecting." annotatedElement="_6E_lEOw6EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_6E_lFOw6EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_6E_lFew6EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_Q3jTYEBDEduOtt2XXOfTpQ?PLM%20System%20Context/eFF"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_6E_lFuw6EduUHtCEfrq_-w" name="User Profile" client="_6E5ecOw6EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_6E_lF-w6EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_6E_lGOw6EduUHtCEfrq_-w" key="retrieve"/>
+    </eAnnotations>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_5NI3EEBDEduOtt2XXOfTpQ?PLM%20System%20Context/IIP%2FBluepages"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_6E_lGew6EduUHtCEfrq_-w" name="Customer Info, EPI, &amp; Order Requests" client="_6E5ecOw6EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_6E_lGuw6EduUHtCEfrq_-w" source="appliedStereotypes">
+      <contents xmi:type="Basic_0:Basic__Send" xmi:id="_6E_lG-w6EduUHtCEfrq_-w"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_6E_lHOw6EduUHtCEfrq_-w" body="ShopPLm will send XML request messages to eFF" annotatedElement="_6E_lGew6EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_6E_lHew6EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_6E_lHuw6EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_Q3jTYEBDEduOtt2XXOfTpQ?PLM%20System%20Context/eFF"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_6E_lH-w6EduUHtCEfrq_-w" name="Authentication" client="_6E5ecOw6EduUHtCEfrq_-w">
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_5NI3EEBDEduOtt2XXOfTpQ?PLM%20System%20Context/IIP%2FBluepages"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_6E_lIOw6EduUHtCEfrq_-w" name="Authorizations" client="_6E5ecOw6EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_6E_lIew6EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_6E_lIuw6EduUHtCEfrq_-w" key="retrieve"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_6E_lI-w6EduUHtCEfrq_-w" body="ShopPLM will use a local EJB call to RAM to get the authorizations required for the user. " annotatedElement="_6E_lIOw6EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_6FFrsOw6EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_6FFrsew6EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_sF2QsEBDEduOtt2XXOfTpQ?PLM%20System%20Context/RAM"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_6FFrsuw6EduUHtCEfrq_-w" name="Orders" client="_6E5ecOw6EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_6FFrs-w6EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_6FFrtOw6EduUHtCEfrq_-w" key="persist"/>
+    </eAnnotations>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_Kz5H0EBDEduOtt2XXOfTpQ?PLM%20System%20Context/ShopPLM"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_6FFrtew6EduUHtCEfrq_-w" client="_6E5ecOw6EduUHtCEfrq_-w">
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_VYo48EBDEduOtt2XXOfTpQ?PLM%20System%20Context/EPI%20Display%20Engine"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_6FFrtuw6EduUHtCEfrq_-w" client="_6E5ecOw6EduUHtCEfrq_-w">
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_JZdKIEBDEduOtt2XXOfTpQ?PLM%20System%20Context/CAT"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_6FFrt-w6EduUHtCEfrq_-w" client="_6E5ecOw6EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_6FFruOw6EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_6FFruew6EduUHtCEfrq_-w" key="get"/>
+    </eAnnotations>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_Rmom8EBDEduOtt2XXOfTpQ?PLM%20System%20Context/RDH%20(MPP%20Replica)"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_aQW5UOw7EduUHtCEfrq_-w" name="Copy_1_User Profile">
+    <eAnnotations xmi:id="_aQW5Uew7EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_aQW5Uuw7EduUHtCEfrq_-w" key="retrieve"/>
+    </eAnnotations>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_5NI3EEBDEduOtt2XXOfTpQ?PLM%20System%20Context/IIP%2FBluepages"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_e6bbwOw7EduUHtCEfrq_-w" name="Authorizations" client="_DhntAOw6EduUHtCEfrq_-w" supplier="_6E5ecOw6EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_qIDKwOw7EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_qIDKwew7EduUHtCEfrq_-w" key="retrieve"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_pUMr8Ow7EduUHtCEfrq_-w" body="ShopPLM uses a local EJB call to RAM to get the authorizations required for the user. " annotatedElement="_e6bbwOw7EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_pUMr8ew7EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_pUMr8uw7EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Node" xmi:id="_x3JkcOw7EduUHtCEfrq_-w" name="CAT" clientDependency="_x3Jkduw7EduUHtCEfrq_-w _x3PrEOw7EduUHtCEfrq_-w _J5SAYOw_EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_x3Jkcew7EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_x3Jkcuw7EduUHtCEfrq_-w" key="DB"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_x3Jkc-w7EduUHtCEfrq_-w" body="First Point of Contact:  CAT Data Architect:  Govert Koetsier/Boulder/IBM&#xD;&#xA;Type:  DB2 Database Tables (JDBC interface using WAS DataSources)&#xD;&#xA;&#xD;&#xA;Description:&#xD;&#xA;The Customer Analysis Tool (CAT) is a different webapp that has it’s own DB2 tables.  Some of these DB2 tables are shared with ShopCBS and some are created specifically for ShopCBS. RAM uses the CAT Database to extract Customer Number information when validating IBM event subscriptions to customer number events&#xD;&#xA;&#xD;&#xA;The CAT load process loads all data into the CAT DB once daily and is completed before 11pm Boulder time. Some control data is manually loaded into the CAT DB by the Copenhagen Product Enablement team. " annotatedElement="_x3JkcOw7EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_x3JkdOw7EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_x3Jkdew7EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_x3Jkduw7EduUHtCEfrq_-w" name="Catalog, iBase, Upgrade, and Control Data" client="_x3JkcOw7EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_x3Jkd-w7EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_x3JkeOw7EduUHtCEfrq_-w" key="retrieve"/>
+    </eAnnotations>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_CCVLkEBDEduOtt2XXOfTpQ?PLM%20System%20Context/ShopPLM"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_x3PrEOw7EduUHtCEfrq_-w" name="Licensing Info" client="_x3JkcOw7EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_x3PrEew7EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_x3PrEuw7EduUHtCEfrq_-w" key="read"/>
+    </eAnnotations>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_HPplkGLgEdu2caEmDIKhQw?PLM%20System%20Context/IBase"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Node" xmi:id="_ciA9cOw8EduUHtCEfrq_-w" name="IIP / BluePages" clientDependency="_BAoPkOw9EduUHtCEfrq_-w _4HtHEOw8EduUHtCEfrq_-w">
+    <ownedComment xmi:id="_ciA9cew8EduUHtCEfrq_-w" body="First Point of Contact:  Enterprise Directory/Southbury/IBM@IBMUS&#xD;&#xA;Type:  Java API&#xD;&#xA;&#xD;&#xA;Description:&#xD;&#xA;RAM is currently restricted to IBM employees.  The users will be authenticated via their IBM Intranet Password (IIP).  Once authenticated, profile information will be retrieved from BluePages." annotatedElement="_ciA9cOw8EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_ciA9cuw8EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_ciA9c-w8EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Node" xmi:id="_ekd9YOw8EduUHtCEfrq_-w" name="User" clientDependency="_ekd9a-w8EduUHtCEfrq_-w _iodFUOw-EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_ekd9Yew8EduUHtCEfrq_-w" source="appliedStereotypes">
+      <contents xmi:type="Deployment_0:Deployment__Desktop" xmi:id="_ekd9Yuw8EduUHtCEfrq_-w"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_ekd9Y-w8EduUHtCEfrq_-w" body="First Point of Contact:  Business Analyst:  Mark S. Brown/Poughkeepsie/IBM&#xD;&#xA;Type:  User&#xD;&#xA;&#xD;&#xA;Description:&#xD;&#xA;User is a person who authenticates via IIP (therefore will be IBMer or contractor).  Via the RAM UI they can perform the following tasks: &#xD;&#xA; -Request application roles – these roles are defined by the boarding application (currently ShopPLM and ShopzSeries).  Approvals come from their managers.&#xD;&#xA; -Subscription management – if IBMer is approved for a ShopzSeries subscriber type application role, they use RAM to indicate the customer numbers and events they want to be notified of.&#xD;&#xA; -IBM Managers will be required to use RAM to approve or reject certain RAM requests made by their employees.  They are notified via email when a request needs to be processed by them.  They use the RAM UI to approve or      reject Application role requests&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" annotatedElement="_ekd9YOw8EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_ekd9ZOw8EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_ekd9Zew8EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_ekd9a-w8EduUHtCEfrq_-w" client="_ekd9YOw8EduUHtCEfrq_-w">
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_CCVLkEBDEduOtt2XXOfTpQ?PLM%20System%20Context/ShopPLM"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_4HtHEOw8EduUHtCEfrq_-w" name="Authentication" client="_ciA9cOw8EduUHtCEfrq_-w" supplier="_DhntAOw6EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_CglL4PHOEduGM4kJLIqR5w" source="keywords">
+      <details xmi:id="_CglL4fHOEduGM4kJLIqR5w" key="retrieve"/>
+    </eAnnotations>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_BAoPkOw9EduUHtCEfrq_-w" name="User Profile" client="_ciA9cOw8EduUHtCEfrq_-w" supplier="_DhntAOw6EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_DjdYsOw9EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_DjdYsew9EduUHtCEfrq_-w" key="retrieve"/>
+    </eAnnotations>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Node" xmi:id="_VSQgQOw-EduUHtCEfrq_-w" name="IBM Managers" clientDependency="_VSQgRuw-EduUHtCEfrq_-w _jTzvcOw-EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_VSQgQew-EduUHtCEfrq_-w" source="appliedStereotypes">
+      <contents xmi:type="Deployment_0:Deployment__Desktop" xmi:id="_VSQgQuw-EduUHtCEfrq_-w"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_VSQgQ-w-EduUHtCEfrq_-w" body="First Point of Contact:  Business Analyst:  Mark S. Brown/Poughkeepsie/IBM&#xD;&#xA;Type:  User&#xD;&#xA;&#xD;&#xA;Description:&#xD;&#xA;IBM Managers will be required to use RAM to approve or reject certain RAM requests made by their employees.  They are notified via email when a request needs to be processed by them.  They use the RAM UI to approve or reject the following requests:&#xD;&#xA;•&#x9;Application role requests&#xD;&#xA;&#xD;&#xA;" annotatedElement="_VSQgQOw-EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_VSQgROw-EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_VSQgRew-EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_VSQgRuw-EduUHtCEfrq_-w" client="_VSQgQOw-EduUHtCEfrq_-w">
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_CCVLkEBDEduOtt2XXOfTpQ?PLM%20System%20Context/ShopPLM"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_iodFUOw-EduUHtCEfrq_-w" client="_ekd9YOw8EduUHtCEfrq_-w" supplier="_DhntAOw6EduUHtCEfrq_-w"/>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_jTzvcOw-EduUHtCEfrq_-w" client="_VSQgQOw-EduUHtCEfrq_-w" supplier="_DhntAOw6EduUHtCEfrq_-w"/>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_J5SAYOw_EduUHtCEfrq_-w" client="_x3JkcOw7EduUHtCEfrq_-w" supplier="_DhntAOw6EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_OXaYkOw_EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_OXaYkew_EduUHtCEfrq_-w" key="retrieve"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_UdpXAOw_EduUHtCEfrq_-w" body="RAM uses the CAT Database to extract Customer Number information when validating IBM event subscriptions to customer number events" annotatedElement="_J5SAYOw_EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_UdpXAew_EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_UdpXAuw_EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Node" xmi:id="_Z9GpUOw_EduUHtCEfrq_-w" name="ShopzSeries" clientDependency="_Z9Mv8uw_EduUHtCEfrq_-w _Z9Y9MOw_EduUHtCEfrq_-w _Z9S2mew_EduUHtCEfrq_-w _Z9Y9Mew_EduUHtCEfrq_-w _Z9S2luw_EduUHtCEfrq_-w _Z9Mv8ew_EduUHtCEfrq_-w _Z9Mv8Ow_EduUHtCEfrq_-w _Z-6nMOw_EduUHtCEfrq_-w _Z9S2kOw_EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_Z9GpUew_EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_Z9GpUuw_EduUHtCEfrq_-w" key="Application"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_Z9GpU-w_EduUHtCEfrq_-w" body="First Point of Contact:  ShopzSeries Application Architect: Ryan Hodgin/Boulder/IBM&#xD;&#xA;Type:  J2EE Web Application&#xD;&#xA;&#xD;&#xA;Description:&#xD;&#xA;ShopzSeries is an evolving worldwide web application currently used by IBM customers and IBM internals to:&#xD;&#xA;&#xD;&#xA; -plan zSeries system and product upgrades&#xD;&#xA; -order products and service for zSeries&#xD;&#xA; -tailor software orders to their needs&#xD;&#xA; -get Internet delivery for product and service&#xD;&#xA; -generate and display software license reports&#xD;&#xA; -and more....&#xD;&#xA;&#xD;&#xA;" annotatedElement="_Z9GpUOw_EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_Z9GpVOw_EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_Z9GpVew_EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+    <ownedAttribute xmi:id="_Z9GpVuw_EduUHtCEfrq_-w" name="ram" visibility="private">
+      <type xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_sF2QsEBDEduOtt2XXOfTpQ?PLM%20System%20Context/RAM"/>
+    </ownedAttribute>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_Z9Mv8Ow_EduUHtCEfrq_-w" client="_Z9GpUOw_EduUHtCEfrq_-w">
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_VYo48EBDEduOtt2XXOfTpQ?PLM%20System%20Context/EPI%20Display%20Engine"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_Z9Mv8ew_EduUHtCEfrq_-w" client="_Z9GpUOw_EduUHtCEfrq_-w">
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_JZdKIEBDEduOtt2XXOfTpQ?PLM%20System%20Context/CAT"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_Z9Mv8uw_EduUHtCEfrq_-w" name="Copy_1_Authorizations" client="_Z9GpUOw_EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_Z9Mv8-w_EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_Z9Mv9Ow_EduUHtCEfrq_-w" key="retrieve"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_Z9Mv9ew_EduUHtCEfrq_-w" body="ShopPLM will use a local EJB call to RAM to get the authorizations required for the user. " annotatedElement="_Z9Mv8uw_EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_Z9Mv9uw_EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_Z9Mv9-w_EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_sF2QsEBDEduOtt2XXOfTpQ?PLM%20System%20Context/RAM"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_Z9S2kOw_EduUHtCEfrq_-w" name="Copy_1_transform to XML" client="_Z9GpUOw_EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_Z9S2kew_EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_Z9S2kuw_EduUHtCEfrq_-w" key="transform"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_Z9S2k-w_EduUHtCEfrq_-w" body="ShopPLM will use eFF to transform the order acknowledgement message from the FEOI format to the XML format that it is expecting." annotatedElement="_Z9S2kOw_EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_Z9S2lOw_EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_Z9S2lew_EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_Q3jTYEBDEduOtt2XXOfTpQ?PLM%20System%20Context/eFF"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_Z9S2luw_EduUHtCEfrq_-w" name="Copy_1_Orders" client="_Z9GpUOw_EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_Z9S2l-w_EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_Z9S2mOw_EduUHtCEfrq_-w" key="persist"/>
+    </eAnnotations>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_Kz5H0EBDEduOtt2XXOfTpQ?PLM%20System%20Context/ShopPLM"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_Z9S2mew_EduUHtCEfrq_-w" name="Copy_2_User Profile" client="_Z9GpUOw_EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_Z9S2muw_EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_Z9S2m-w_EduUHtCEfrq_-w" key="retrieve"/>
+    </eAnnotations>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_5NI3EEBDEduOtt2XXOfTpQ?PLM%20System%20Context/IIP%2FBluepages"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_Z9Y9MOw_EduUHtCEfrq_-w" name="Copy_1_Authentication" client="_Z9GpUOw_EduUHtCEfrq_-w">
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_5NI3EEBDEduOtt2XXOfTpQ?PLM%20System%20Context/IIP%2FBluepages"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_Z9Y9Mew_EduUHtCEfrq_-w" client="_Z9GpUOw_EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_Z9Y9Muw_EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_Z9Y9M-w_EduUHtCEfrq_-w" key="get"/>
+    </eAnnotations>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_Rmom8EBDEduOtt2XXOfTpQ?PLM%20System%20Context/RDH%20(MPP%20Replica)"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_Z9Y9NOw_EduUHtCEfrq_-w" name="group profile info" client="_DhntAOw6EduUHtCEfrq_-w" supplier="_Z9GpUOw_EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_Z9Y9New_EduUHtCEfrq_-w" source="keywords">
+      <details xmi:id="_Z9Y9Nuw_EduUHtCEfrq_-w" key="retrieve"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_Z9Y9N-w_EduUHtCEfrq_-w" body="ShopzSeries uses a local EJB call to RAM to get the list of event subscribers for a partcular customer number event.&#xD;&#xA;&#xD;&#xA;New for RAM 2.0&#xD;&#xA;-support fetching of group profile info&#xD;&#xA;" annotatedElement="_Z9Y9NOw_EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_Z9Y9OOw_EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_Z9Y9Oew_EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_Z-6nMOw_EduUHtCEfrq_-w" name="Copy_1_Customer Info, EPI, &amp; Order Requests" client="_Z9GpUOw_EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_Z-6nMew_EduUHtCEfrq_-w" source="appliedStereotypes">
+      <contents xmi:type="Basic_0:Basic__Send" xmi:id="_Z-6nMuw_EduUHtCEfrq_-w"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_Z-6nM-w_EduUHtCEfrq_-w" body="ShopPLm will send XML request messages to eFF" annotatedElement="_Z-6nMOw_EduUHtCEfrq_-w">
+      <eAnnotations xmi:id="_Z-6nNOw_EduUHtCEfrq_-w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_Z-6nNew_EduUHtCEfrq_-w"/>
+      </eAnnotations>
+    </ownedComment>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_Q3jTYEBDEduOtt2XXOfTpQ?PLM%20System%20Context/eFF"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Node" xmi:id="_3M0gAPHKEduGM4kJLIqR5w" name="RAM" clientDependency="_3M6mo_HKEduGM4kJLIqR5w _3M6moPHKEduGM4kJLIqR5w _3M0gBvHKEduGM4kJLIqR5w">
+    <eAnnotations xmi:id="_3M0gAfHKEduGM4kJLIqR5w" source="keywords">
+      <details xmi:id="_3M0gAvHKEduGM4kJLIqR5w" key="DB"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_3M0gA_HKEduGM4kJLIqR5w" body="Type:  DB2 Database Tables (JDBC interface using WAS DataSources)&#xD;&#xA;&#xD;&#xA;Description:&#xD;&#xA;The RAM DB is a DB2 database that contains user application roles and requests" annotatedElement="_3M0gAPHKEduGM4kJLIqR5w">
+      <eAnnotations xmi:id="_3M0gBPHKEduGM4kJLIqR5w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_3M0gBfHKEduGM4kJLIqR5w"/>
+      </eAnnotations>
+    </ownedComment>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_3M0gBvHKEduGM4kJLIqR5w" client="_3M0gAPHKEduGM4kJLIqR5w" supplier="_DhntAOw6EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_3M0gB_HKEduGM4kJLIqR5w" source="keywords">
+      <details xmi:id="_3M0gCPHKEduGM4kJLIqR5w" key="retrieve"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_3M0gCfHKEduGM4kJLIqR5w" body="RAM uses the CAT Database to extract Customer Number information when validating IBM event subscriptions to customer number events" annotatedElement="_3M0gBvHKEduGM4kJLIqR5w">
+      <eAnnotations xmi:id="_3M0gCvHKEduGM4kJLIqR5w" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_3M0gC_HKEduGM4kJLIqR5w"/>
+      </eAnnotations>
+    </ownedComment>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_3M6moPHKEduGM4kJLIqR5w" name="Copy_1_Licensing Info" client="_3M0gAPHKEduGM4kJLIqR5w">
+    <eAnnotations xmi:id="_3M6mofHKEduGM4kJLIqR5w" source="keywords">
+      <details xmi:id="_3M6movHKEduGM4kJLIqR5w" key="read"/>
+    </eAnnotations>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_HPplkGLgEdu2caEmDIKhQw?PLM%20System%20Context/IBase"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_3M6mo_HKEduGM4kJLIqR5w" name="Copy_1_Catalog, iBase, Upgrade, and Control Data" client="_3M0gAPHKEduGM4kJLIqR5w">
+    <eAnnotations xmi:id="_3M6mpPHKEduGM4kJLIqR5w" source="keywords">
+      <details xmi:id="_3M6mpfHKEduGM4kJLIqR5w" key="retrieve"/>
+    </eAnnotations>
+    <supplier xmi:type="uml:Node" href="platform:/resource/ShopPLM_High_Level_Design/PLM%20System%20Context.emx#_CCVLkEBDEduOtt2XXOfTpQ?PLM%20System%20Context/ShopPLM"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_0RQ4YPHLEduGM4kJLIqR5w" client="_DhntAOw6EduUHtCEfrq_-w" supplier="_3M0gAPHKEduGM4kJLIqR5w">
+    <eAnnotations xmi:id="_19d7gPHLEduGM4kJLIqR5w" source="keywords">
+      <details xmi:id="_19d7gfHLEduGM4kJLIqR5w" key="persist"/>
+    </eAnnotations>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_0w4hsPHNEduGM4kJLIqR5w" name="id/pswd" client="_DhntAOw6EduUHtCEfrq_-w" supplier="_ciA9cOw8EduUHtCEfrq_-w">
+    <eAnnotations xmi:id="_9KAIwPHNEduGM4kJLIqR5w" source="keywords"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Node" xmi:id="_li10wfHOEduGM4kJLIqR5w" name="Text Files" clientDependency="_w5u0gPHOEduGM4kJLIqR5w"/>
+  <ownedMember xmi:type="uml:Usage" xmi:id="_w5u0gPHOEduGM4kJLIqR5w" client="_li10wfHOEduGM4kJLIqR5w" supplier="_DhntAOw6EduUHtCEfrq_-w"/>
+  <ownedMember xmi:type="uml:Node" xmi:id="_8l8XAGeNEdyIJoj6Ru7aIg" name="Web Identity">
+    <ownedComment xmi:id="_8l8XAWeNEdyIJoj6Ru7aIg" body="New for RAM 2.0&#xD;&#xA;First Point of Contact:  Web ID Project Manager:  Barry Morrow/Montvale/IBM&#xD;&#xA;                                     Web ID Technical Contact assigned to Shopz:  Ronald Pang/Cupertino/IBM&#xD;&#xA;&#xD;&#xA;Type:  Java API&#xD;&#xA;&#xD;&#xA;Description: The WI system provides ibm.com applications with authentication services and information about users. It collects user profile information in a central data store, and makes it available through a Web Services interface. The profile information includes standard elements such as the user’s name, addresses, content preferences, interest areas and marketing permissions. &#xD;&#xA;" annotatedElement="_8l8XAGeNEdyIJoj6Ru7aIg">
+      <eAnnotations xmi:id="_8l8XAmeNEdyIJoj6Ru7aIg" source="appliedStereotypes">
+        <contents xmi:type="Default_0:Default__Documentation" xmi:id="_8l8XA2eNEdyIJoj6Ru7aIg"/>
+      </eAnnotations>
+    </ownedComment>
+  </ownedMember>
+</uml:Model>

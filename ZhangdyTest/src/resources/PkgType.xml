@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageTypes>
+	<!-- APARSERV -->
+	<PackageType id="APAR service">
+		<Name>APAR service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>aparserv</Key>
+		<PackageOffering>CORRSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+
+	<!-- PTFSERV -->
+	<PackageType id="PTF service">
+		<Name>PTF service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>ptfserv</Key>
+		<PackageOffering>CORRSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- CBPDO -->
+	<PackageType id="CBPDO">
+		<Name>CBPDO</Name>
+		<IsSupported>true</IsSupported>
+		<Key>cbpdo</Key>
+		<PackageOffering>5751CS3</PackageOffering>
+		<PackageCategoryId>Products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>true</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>true</UsesVSLs>
+	</PackageType>
+	
+	<!-- Server Pac -->
+	<PackageType id="ServerPac">
+		<Name>ServerPac</Name>
+		<IsSupported>true</IsSupported>
+		<Key>serverpac</Key>
+		<PackageOffering>5751CS9</PackageOffering>
+		<PackageCategoryId>Products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>true</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>true</UsesVSLs>
+		<IsSupportEsp>true</IsSupportEsp><!-- PTR 7690-->
+	</PackageType>
+	<!-- PTR 7690 (PTR 7689 rollback)-->
+	
+	<!-- Product Pac -->
+	<PackageType id="ProductPac">
+		<Name>ProductPac</Name>
+		<IsSupported>true</IsSupported>
+		<Key>productpac</Key>
+		<PackageOffering>5751CS5</PackageOffering>
+		<PackageCategoryId>Customized products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>true</UsesVSLs>
+		<!-- move US for PTR 8016 -->
+		<!-- PTR8845 -->
+		<!-- <SupportedInCountry>CL</SupportedInCountry> --> <!-- CHILE        655 -->
+		<!-- <SupportedInCountry>PE</SupportedInCountry> --> <!-- PERU         815 -->
+		<!-- <SupportedInCountry>CO</SupportedInCountry> --> <!-- COLOMBIA     661 -->
+		<!-- <SupportedInCountry>EC</SupportedInCountry> --> <!-- ECUADOR      683 -->
+		<!-- <SupportedInCountry>UY</SupportedInCountry> --> <!-- URUGUAY      869 -->
+		<!-- <SupportedInCountry>VE</SupportedInCountry> --> <!-- VENEZUELA    871 -->
+        <!-- <SupportedInCountry>CA</SupportedInCountry> --> <!-- Canada       649 -->
+        <!-- <SupportedInCountry>CN</SupportedInCountry> --> <!-- China        641 -->
+        <!-- <SupportedInCountry>BR</SupportedInCountry> --> <!-- Brazil       631 -->
+        <SupportedInCountry>AT</SupportedInCountry> <!-- AUSTRIA      618 -->
+        <SupportedInCountry>BE</SupportedInCountry> <!-- BELGIUM      624 -->
+        <SupportedInCountry>CH</SupportedInCountry> <!-- SWITZERLAND  848 -->         
+        <SupportedInCountry>CZ</SupportedInCountry> <!-- CZECH REP    668 -->
+        <SupportedInCountry>EG</SupportedInCountry> <!-- EGYPT        865 -->
+        <SupportedInCountry>DE</SupportedInCountry> <!-- GERMANY      724 -->
+        <SupportedInCountry>DK</SupportedInCountry> <!-- DENMARK      678 -->
+        <SupportedInCountry>ES</SupportedInCountry> <!-- SPAIN        838 -->
+        <SupportedInCountry>FI</SupportedInCountry> <!-- FINLAND      702 -->
+        <SupportedInCountry>FR</SupportedInCountry> <!-- FRANCE       706 -->
+        <SupportedInCountry>GB</SupportedInCountry> <!-- UK           866 -->
+        <SupportedInCountry>HR</SupportedInCountry> <!-- CROATIA      704 -->
+        <SupportedInCountry>IE</SupportedInCountry> <!-- IRELAND      754 -->
+        <SupportedInCountry>IT</SupportedInCountry> <!-- ITALY        758 -->
+        <SupportedInCountry>NL</SupportedInCountry> <!-- NETHERLANDS  788 -->
+        <SupportedInCountry>NO</SupportedInCountry> <!-- NORWAY       806 -->
+        <SupportedInCountry>PL</SupportedInCountry> <!-- POLAND       820 -->
+        <SupportedInCountry>RU</SupportedInCountry> <!-- RUSSIA       821 -->
+        <SupportedInCountry>PT</SupportedInCountry> <!-- PORTUGAL     822 -->
+        <SupportedInCountry>CS</SupportedInCountry> <!-- SERBIA       707 -->
+        <SupportedInCountry>SE</SupportedInCountry> <!-- SWEDEN       846 -->
+        <SupportedInCountry>SI</SupportedInCountry> <!-- SLOVENIA     708 -->
+        <SupportedInCountry>SK</SupportedInCountry> <!-- SLOVAKIA     693 -->
+        <SupportedInCountry>ZA</SupportedInCountry> <!-- SOUTH AFRICA 864 -->
+        
+	</PackageType>
+	
+	<!-- System Pac -->
+	<PackageType id="SystemPac">
+		<Name>SystemPac</Name>
+		<IsSupported>true</IsSupported>
+		<Key>systempac</Key>
+		<PackageOffering>5751CS4</PackageOffering>
+		<PackageCategoryId>Customized products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>true</UsesVSLs>
+		<!-- PTR8845 -->
+		<!-- <SupportedInCountry>US</SupportedInCountry> --> <!-- USA          897 -->
+		<!-- <SupportedInCountry>CL</SupportedInCountry> --> <!-- CHILE        655 -->
+		<!-- <SupportedInCountry>PE</SupportedInCountry> --> <!-- PERU         815 -->
+		<!-- <SupportedInCountry>CO</SupportedInCountry> --> <!-- COLOMBIA     661 -->
+		<!-- <SupportedInCountry>EC</SupportedInCountry> --> <!-- ECUADOR      683 -->
+		<!-- <SupportedInCountry>UY</SupportedInCountry> --> <!-- URUGUAY      869 -->
+		<!-- <SupportedInCountry>VE</SupportedInCountry> --> <!-- VENEZUELA    871 -->
+        <!-- <SupportedInCountry>CA</SupportedInCountry> --> <!-- Canada       649 -->
+        <!-- <SupportedInCountry>CN</SupportedInCountry> --> <!-- China        641 -->
+        <!-- <SupportedInCountry>BR</SupportedInCountry> --> <!-- Brazil       631 -->
+        <SupportedInCountry>AT</SupportedInCountry> <!-- AUSTRIA      618 -->
+        <SupportedInCountry>BE</SupportedInCountry> <!-- BELGIUM      624 -->
+        <SupportedInCountry>CH</SupportedInCountry> <!-- SWITZERLAND  848 -->         
+        <SupportedInCountry>CZ</SupportedInCountry> <!-- CZECH REP    668 -->
+        <SupportedInCountry>EG</SupportedInCountry> <!-- EGYPT        865 -->
+        <SupportedInCountry>DE</SupportedInCountry> <!-- GERMANY      724 -->
+        <SupportedInCountry>DK</SupportedInCountry> <!-- DENMARK      678 -->
+        <SupportedInCountry>ES</SupportedInCountry> <!-- SPAIN        838 -->
+        <SupportedInCountry>FI</SupportedInCountry> <!-- FINLAND      702 -->
+        <SupportedInCountry>FR</SupportedInCountry> <!-- FRANCE       706 -->
+        <SupportedInCountry>GB</SupportedInCountry> <!-- UK           866 -->
+        <SupportedInCountry>HR</SupportedInCountry> <!-- CROATIA      704 -->
+        <SupportedInCountry>IE</SupportedInCountry> <!-- IRELAND      754 -->
+        <SupportedInCountry>IT</SupportedInCountry> <!-- ITALY        758 -->
+        <!-- PTR8845 delete Korea-->
+        <!-- <SupportedInCountry>KR</SupportedInCountry> --> <!-- Korea        766 -->
+        <SupportedInCountry>NL</SupportedInCountry> <!-- NETHERLANDS  788 -->
+        <SupportedInCountry>NO</SupportedInCountry> <!-- NORWAY       806 -->
+        <SupportedInCountry>PL</SupportedInCountry> <!-- POLAND       820 -->
+        <SupportedInCountry>RU</SupportedInCountry> <!-- RUSSIA       821 -->
+        <SupportedInCountry>PT</SupportedInCountry> <!-- PORTUGAL     822 -->
+        <SupportedInCountry>CS</SupportedInCountry> <!-- SERBIA       707 -->
+        <SupportedInCountry>SE</SupportedInCountry> <!-- SWEDEN       846 -->
+        <SupportedInCountry>SI</SupportedInCountry> <!-- SLOVENIA     708 -->
+        <SupportedInCountry>SK</SupportedInCountry> <!-- SLOVAKIA     693 -->
+        <SupportedInCountry>ZA</SupportedInCountry> <!-- SOUTH AFRICA 864 -->
+        <!-- PTR6908 -->
+        <SupportedInCountry>CY</SupportedInCountry> <!-- Cyprus       666 -->
+		<SupportedInCountry>GR</SupportedInCountry> <!-- Greece       726 -->
+		<SupportedInCountry>HU</SupportedInCountry> <!-- Hungary      740 -->
+	</PackageType>
+	
+	<!-- Function Pac -->
+	<PackageType id="FunctionPac">
+		<Name>FunctionPac (customized function replacement)</Name>
+		<IsSupported>true</IsSupported>
+		<Key>functionpac</Key>
+		<PackageOffering>5751CS6</PackageOffering>
+		<PackageCategoryId>Customized products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>true</UsesVSLs>
+		<!-- FunctionPac is NOT offered in US, Canada, China or Brazil -->
+        <SupportedInCountry>AT</SupportedInCountry> <!-- AUSTRIA      618 -->
+        <SupportedInCountry>BE</SupportedInCountry> <!-- BELGIUM      624 -->
+        <SupportedInCountry>CH</SupportedInCountry> <!-- SWITZERLAND  848 -->         
+        <SupportedInCountry>CZ</SupportedInCountry> <!-- CZECH REP    668 -->
+        <SupportedInCountry>EG</SupportedInCountry> <!-- EGYPT        865 -->
+        <SupportedInCountry>DE</SupportedInCountry> <!-- GERMANY      724 -->
+        <SupportedInCountry>DK</SupportedInCountry> <!-- DENMARK      678 -->
+        <SupportedInCountry>ES</SupportedInCountry> <!-- SPAIN        838 -->
+        <SupportedInCountry>FI</SupportedInCountry> <!-- FINLAND      702 -->
+        <SupportedInCountry>FR</SupportedInCountry> <!-- FRANCE       706 -->
+        <SupportedInCountry>GB</SupportedInCountry> <!-- UK           866 -->
+        <SupportedInCountry>HR</SupportedInCountry> <!-- CROATIA      704 -->
+        <SupportedInCountry>IE</SupportedInCountry> <!-- IRELAND      754 -->
+        <SupportedInCountry>NL</SupportedInCountry> <!-- NETHERLANDS  788 -->
+        <SupportedInCountry>NO</SupportedInCountry> <!-- NORWAY       806 -->
+        <SupportedInCountry>PL</SupportedInCountry> <!-- POLAND       820 -->
+        <SupportedInCountry>RU</SupportedInCountry> <!-- RUSSIA       821 -->
+        <SupportedInCountry>PT</SupportedInCountry> <!-- PORTUGAL     822 -->
+        <SupportedInCountry>CS</SupportedInCountry> <!-- SERBIA       707 -->
+        <SupportedInCountry>SE</SupportedInCountry> <!-- SWEDEN       846 -->
+        <SupportedInCountry>SI</SupportedInCountry> <!-- SLOVENIA     708 -->
+        <SupportedInCountry>SK</SupportedInCountry> <!-- SLOVAKIA     693 -->
+        <SupportedInCountry>ZA</SupportedInCountry> <!-- SOUTH AFRICA 864 -->
+	</PackageType>
+	
+	<!-- CODRIVER -->
+	<!-- set IsSupported to false on Sept 11th -->
+	<PackageType id="Customized Offerings Driver">
+		<Name>Customized Offerings Driver</Name>
+		<IsSupported>false</IsSupported> 
+		<Key>codriver</Key>
+		<PackageOffering>5655M12</PackageOffering>
+		<PackageCategoryId>Driving system</PackageCategoryId>
+		<IsInternetDeliverable>false</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- added for ptr7219 -->
+	<!-- CODRIVER2 -->
+	<!-- set the IsSupported to true on Sept 11th -->
+	<PackageType id="Customized Offerings Driver2">
+		<Name>Customized Offerings Driver</Name>
+		<IsSupported>true</IsSupported> 
+		<Key>codriver2</Key>
+		<PackageOffering>5751COD</PackageOffering>
+		<PackageCategoryId>Driving system</PackageCategoryId>
+		<IsInternetDeliverable>false</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- KASSANDRA -->
+	<PackageType id="kassandra">
+		<Name>Kassandra</Name>
+		<IsSupported>true</IsSupported>
+		<Key>kassandra</Key>
+		<PackageOffering></PackageOffering>
+		<PackageCategoryId>Customized service</PackageCategoryId>
+		<IsInternetDeliverable>false</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+		<!-- KASSANDRA only supported in Germany, Switzerland and Austria -->
+		<SupportedInCountry>DE</SupportedInCountry>
+		<SupportedInCountry>CH</SupportedInCountry>
+		<SupportedInCountry>AT</SupportedInCountry>		
+	</PackageType>
+	
+	<!-- LINKALL - ServiceLink All PTFs -->
+	<PackageType id="linkall">
+		<Name>ServiceLink All PTFs</Name>
+		<IsSupported>true</IsSupported>
+		<Key>linkall</Key>
+		<PackageOffering></PackageOffering>
+		<PackageCategoryId>Customized service</PackageCategoryId>
+		<IsInternetDeliverable>false</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+		<!-- PTR8845 -->
+		<!-- <SupportedInCountry>CL</SupportedInCountry> --> <!-- CHILE        655 -->
+		<!-- <SupportedInCountry>PE</SupportedInCountry> --> <!-- PERU         815 -->
+		<!-- <SupportedInCountry>CO</SupportedInCountry> --> <!-- COLOMBIA     661 -->
+		<!-- <SupportedInCountry>EC</SupportedInCountry> --> <!-- ECUADOR      683 -->
+		<!-- <SupportedInCountry>UY</SupportedInCountry> --> <!-- URUGUAY      869 -->
+		<!-- <SupportedInCountry>VE</SupportedInCountry> --> <!-- VENEZUELA    871 -->
+        <!-- <SupportedInCountry>CA</SupportedInCountry> --> <!-- Canada       649 -->
+        <!-- <SupportedInCountry>CN</SupportedInCountry> --> <!-- China        641 -->
+        <!-- <SupportedInCountry>BR</SupportedInCountry> --> <!-- Brazil       631 -->
+        <SupportedInCountry>AT</SupportedInCountry> <!-- AUSTRIA      618 -->
+        <SupportedInCountry>BE</SupportedInCountry> <!-- BELGIUM      624 -->
+        <SupportedInCountry>CH</SupportedInCountry> <!-- SWITZERLAND  848 -->         
+        <SupportedInCountry>CZ</SupportedInCountry> <!-- CZECH REP    668 -->
+        <SupportedInCountry>EG</SupportedInCountry> <!-- EGYPT        865 -->
+        <SupportedInCountry>DE</SupportedInCountry> <!-- GERMANY      724 -->
+        <SupportedInCountry>DK</SupportedInCountry> <!-- DENMARK      678 -->
+        <SupportedInCountry>ES</SupportedInCountry> <!-- SPAIN        838 -->
+        <SupportedInCountry>FI</SupportedInCountry> <!-- FINLAND      702 -->
+        <SupportedInCountry>FR</SupportedInCountry> <!-- FRANCE       706 -->
+        <SupportedInCountry>GB</SupportedInCountry> <!-- UK           866 -->
+        <SupportedInCountry>HR</SupportedInCountry> <!-- CROATIA      704 -->
+        <SupportedInCountry>IE</SupportedInCountry> <!-- IRELAND      754 -->
+        <SupportedInCountry>IT</SupportedInCountry> <!-- ITALY        758 -->
+        <SupportedInCountry>NL</SupportedInCountry> <!-- NETHERLANDS  788 -->
+        <SupportedInCountry>NO</SupportedInCountry> <!-- NORWAY       806 -->
+        <SupportedInCountry>PL</SupportedInCountry> <!-- POLAND       820 -->
+        <SupportedInCountry>RU</SupportedInCountry> <!-- RUSSIA       821 -->
+        <SupportedInCountry>PT</SupportedInCountry> <!-- PORTUGAL     822 -->
+        <SupportedInCountry>CS</SupportedInCountry> <!-- SERBIA       707 -->
+        <SupportedInCountry>SE</SupportedInCountry> <!-- SWEDEN       846 -->
+        <SupportedInCountry>SI</SupportedInCountry> <!-- SLOVENIA     708 -->
+        <SupportedInCountry>SK</SupportedInCountry> <!-- SLOVAKIA     693 -->
+        <SupportedInCountry>ZA</SupportedInCountry> <!-- SOUTH AFRICA 864 -->
+	</PackageType>
+	
+	<!-- LINKCORR - ServiceLink Corrective service -->
+	<PackageType id="linkcorr">
+		<Name>ServiceLink Corrective service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>linkcorr</Key>
+		<PackageOffering></PackageOffering>
+		<PackageCategoryId>Customized service</PackageCategoryId>
+		<IsInternetDeliverable>false</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	    <!-- move us for ptr 8016 -->
+	    <!-- PTR8845 -->
+		<!-- <SupportedInCountry>CL</SupportedInCountry> --> <!-- CHILE        655 -->
+		<!-- <SupportedInCountry>PE</SupportedInCountry> --> <!-- PERU         815 -->
+		<!-- <SupportedInCountry>CO</SupportedInCountry> --> <!-- COLOMBIA     661 -->
+		<!-- <SupportedInCountry>EC</SupportedInCountry> --> <!-- ECUADOR      683 -->
+		<!-- <SupportedInCountry>UY</SupportedInCountry> --> <!-- URUGUAY      869 -->
+		<!-- <SupportedInCountry>VE</SupportedInCountry> --> <!-- VENEZUELA    871 -->
+        <!-- <SupportedInCountry>CA</SupportedInCountry> --> <!-- Canada       649 -->
+        <!-- <SupportedInCountry>CN</SupportedInCountry> --> <!-- China        641 -->
+        <!-- <SupportedInCountry>BR</SupportedInCountry> --> <!-- Brazil       631 -->
+        <SupportedInCountry>AT</SupportedInCountry> <!-- AUSTRIA      618 -->
+        <SupportedInCountry>BE</SupportedInCountry> <!-- BELGIUM      624 -->
+        <SupportedInCountry>CH</SupportedInCountry> <!-- SWITZERLAND  848 -->         
+        <SupportedInCountry>CZ</SupportedInCountry> <!-- CZECH REP    668 -->
+        <SupportedInCountry>EG</SupportedInCountry> <!-- EGYPT        865 -->
+        <SupportedInCountry>DE</SupportedInCountry> <!-- GERMANY      724 -->
+        <SupportedInCountry>DK</SupportedInCountry> <!-- DENMARK      678 -->
+        <SupportedInCountry>ES</SupportedInCountry> <!-- SPAIN        838 -->
+        <SupportedInCountry>FI</SupportedInCountry> <!-- FINLAND      702 -->
+        <SupportedInCountry>FR</SupportedInCountry> <!-- FRANCE       706 -->
+        <SupportedInCountry>GB</SupportedInCountry> <!-- UK           866 -->
+        <SupportedInCountry>HR</SupportedInCountry> <!-- CROATIA      704 -->
+        <SupportedInCountry>IE</SupportedInCountry> <!-- IRELAND      754 -->
+        <SupportedInCountry>IT</SupportedInCountry> <!-- ITALY        758 -->
+        <SupportedInCountry>NL</SupportedInCountry> <!-- NETHERLANDS  788 -->
+        <SupportedInCountry>NO</SupportedInCountry> <!-- NORWAY       806 -->
+        <SupportedInCountry>PL</SupportedInCountry> <!-- POLAND       820 -->
+        <SupportedInCountry>RU</SupportedInCountry> <!-- RUSSIA       821 -->
+        <SupportedInCountry>PT</SupportedInCountry> <!-- PORTUGAL     822 -->
+        <SupportedInCountry>CS</SupportedInCountry> <!-- SERBIA       707 -->
+        <SupportedInCountry>SE</SupportedInCountry> <!-- SWEDEN       846 -->
+        <SupportedInCountry>SI</SupportedInCountry> <!-- SLOVENIA     708 -->
+        <SupportedInCountry>SK</SupportedInCountry> <!-- SLOVAKIA     693 -->
+        <SupportedInCountry>ZA</SupportedInCountry> <!-- SOUTH AFRICA 864 -->
+	</PackageType>
+	
+	<!-- LINKHEALTH - ServiceLink Health check -->
+	<PackageType id="linkhealth">
+		<Name>ServiceLink Health check</Name>
+		<IsSupported>true</IsSupported>
+		<Key>linkhealth</Key>
+		<PackageOffering></PackageOffering>
+		<PackageCategoryId>Customized service</PackageCategoryId>
+		<IsInternetDeliverable>false</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+		<!-- PTR8845 -->
+		<!-- <SupportedInCountry>CL</SupportedInCountry> --> <!-- CHILE        655 -->
+		<!-- <SupportedInCountry>PE</SupportedInCountry> --> <!-- PERU         815 -->
+		<!-- <SupportedInCountry>CO</SupportedInCountry> --> <!-- COLOMBIA     661 -->
+		<!-- <SupportedInCountry>EC</SupportedInCountry> --> <!-- ECUADOR      683 -->
+		<!-- <SupportedInCountry>UY</SupportedInCountry> --> <!-- URUGUAY      869 -->
+		<!-- <SupportedInCountry>VE</SupportedInCountry> --> <!-- VENEZUELA    871 -->
+        <!-- <SupportedInCountry>CA</SupportedInCountry> --> <!-- Canada       649 -->
+        <!-- <SupportedInCountry>CN</SupportedInCountry> --> <!-- China        641 -->
+        <!-- <SupportedInCountry>BR</SupportedInCountry> --> <!-- Brazil       631 -->
+        <SupportedInCountry>AT</SupportedInCountry> <!-- AUSTRIA      618 -->
+        <SupportedInCountry>BE</SupportedInCountry> <!-- BELGIUM      624 -->
+        <SupportedInCountry>CH</SupportedInCountry> <!-- SWITZERLAND  848 -->         
+        <SupportedInCountry>CZ</SupportedInCountry> <!-- CZECH REP    668 -->
+        <SupportedInCountry>EG</SupportedInCountry> <!-- EGYPT        865 -->
+        <SupportedInCountry>DE</SupportedInCountry> <!-- GERMANY      724 -->
+        <SupportedInCountry>DK</SupportedInCountry> <!-- DENMARK      678 -->
+        <SupportedInCountry>ES</SupportedInCountry> <!-- SPAIN        838 -->
+        <SupportedInCountry>FI</SupportedInCountry> <!-- FINLAND      702 -->
+        <SupportedInCountry>FR</SupportedInCountry> <!-- FRANCE       706 -->
+        <SupportedInCountry>GB</SupportedInCountry> <!-- UK           866 -->
+        <SupportedInCountry>HR</SupportedInCountry> <!-- CROATIA      704 -->
+        <SupportedInCountry>IE</SupportedInCountry> <!-- IRELAND      754 -->
+        <SupportedInCountry>IT</SupportedInCountry> <!-- ITALY        758 -->
+        <SupportedInCountry>NL</SupportedInCountry> <!-- NETHERLANDS  788 -->
+        <SupportedInCountry>NO</SupportedInCountry> <!-- NORWAY       806 -->
+        <SupportedInCountry>PL</SupportedInCountry> <!-- POLAND       820 -->
+        <SupportedInCountry>RU</SupportedInCountry> <!-- RUSSIA       821 -->
+        <SupportedInCountry>PT</SupportedInCountry> <!-- PORTUGAL     822 -->
+        <SupportedInCountry>CS</SupportedInCountry> <!-- SERBIA       707 -->
+        <SupportedInCountry>SE</SupportedInCountry> <!-- SWEDEN       846 -->
+        <SupportedInCountry>SI</SupportedInCountry> <!-- SLOVENIA     708 -->
+        <SupportedInCountry>SK</SupportedInCountry> <!-- SLOVAKIA     693 -->
+        <SupportedInCountry>ZA</SupportedInCountry> <!-- SOUTH AFRICA 864 -->
+	</PackageType>
+	
+	<!-- LINKHIPER - ServiceLink HIPER/PE fixes or report -->
+	<PackageType id="linkhiper">
+		<Name>ServiceLink HIPER/PE fixes or report</Name>
+		<IsSupported>true</IsSupported>
+		<Key>linkhiper</Key>
+		<PackageOffering></PackageOffering>
+		<PackageCategoryId>Customized service</PackageCategoryId>
+		<IsInternetDeliverable>false</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+		<!-- PTR8845 -->
+		<!-- <SupportedInCountry>CL</SupportedInCountry> --> <!-- CHILE        655 -->
+		<!-- <SupportedInCountry>PE</SupportedInCountry> --> <!-- PERU         815 -->
+		<!-- <SupportedInCountry>CO</SupportedInCountry> --> <!-- COLOMBIA     661 -->
+		<!-- <SupportedInCountry>EC</SupportedInCountry> --> <!-- ECUADOR      683 -->
+		<!-- <SupportedInCountry>UY</SupportedInCountry> --> <!-- URUGUAY      869 -->
+		<!-- <SupportedInCountry>VE</SupportedInCountry> --> <!-- VENEZUELA    871 -->
+        <!-- <SupportedInCountry>CA</SupportedInCountry> --> <!-- Canada       649 -->
+        <!-- <SupportedInCountry>CN</SupportedInCountry> --> <!-- China        641 -->
+        <!-- <SupportedInCountry>BR</SupportedInCountry> --> <!-- Brazil       631 -->
+        <SupportedInCountry>AT</SupportedInCountry> <!-- AUSTRIA      618 -->
+        <SupportedInCountry>BE</SupportedInCountry> <!-- BELGIUM      624 -->
+        <SupportedInCountry>CH</SupportedInCountry> <!-- SWITZERLAND  848 -->         
+        <SupportedInCountry>CZ</SupportedInCountry> <!-- CZECH REP    668 -->
+        <SupportedInCountry>EG</SupportedInCountry> <!-- EGYPT        865 -->
+        <SupportedInCountry>DE</SupportedInCountry> <!-- GERMANY      724 -->
+        <SupportedInCountry>DK</SupportedInCountry> <!-- DENMARK      678 -->
+        <SupportedInCountry>ES</SupportedInCountry> <!-- SPAIN        838 -->
+        <SupportedInCountry>FI</SupportedInCountry> <!-- FINLAND      702 -->
+        <SupportedInCountry>FR</SupportedInCountry> <!-- FRANCE       706 -->
+        <SupportedInCountry>GB</SupportedInCountry> <!-- UK           866 -->
+        <SupportedInCountry>HR</SupportedInCountry> <!-- CROATIA      704 -->
+        <SupportedInCountry>IE</SupportedInCountry> <!-- IRELAND      754 -->
+        <SupportedInCountry>IT</SupportedInCountry> <!-- ITALY        758 -->
+        <SupportedInCountry>NL</SupportedInCountry> <!-- NETHERLANDS  788 -->
+        <SupportedInCountry>NO</SupportedInCountry> <!-- NORWAY       806 -->
+        <SupportedInCountry>PL</SupportedInCountry> <!-- POLAND       820 -->
+        <SupportedInCountry>RU</SupportedInCountry> <!-- RUSSIA       821 -->
+        <SupportedInCountry>PT</SupportedInCountry> <!-- PORTUGAL     822 -->
+        <SupportedInCountry>CS</SupportedInCountry> <!-- SERBIA       707 -->
+        <SupportedInCountry>SE</SupportedInCountry> <!-- SWEDEN       846 -->
+        <SupportedInCountry>SI</SupportedInCountry> <!-- SLOVENIA     708 -->
+        <SupportedInCountry>SK</SupportedInCountry> <!-- SLOVAKIA     693 -->
+        <SupportedInCountry>ZA</SupportedInCountry> <!-- SOUTH AFRICA 864 -->
+	</PackageType>
+	
+	<!-- LINKPREV - ServiceLink Preventive service -->
+	<PackageType id="linkprev">
+		<Name>ServiceLink Preventive service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>linkprev</Key>
+		<PackageOffering></PackageOffering>
+		<PackageCategoryId>Customized service</PackageCategoryId>
+		<IsInternetDeliverable>false</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+		<!-- PTR8845 -->
+		<!-- <SupportedInCountry>CL</SupportedInCountry> -->  <!-- CHILE        655 -->
+		<!-- <SupportedInCountry>PE</SupportedInCountry> -->  <!-- PERU         815 -->
+		<!-- <SupportedInCountry>CO</SupportedInCountry> -->  <!-- COLOMBIA     661 -->
+		<!-- <SupportedInCountry>EC</SupportedInCountry> -->  <!-- ECUADOR      683 -->
+		<!-- <SupportedInCountry>UY</SupportedInCountry> -->  <!-- URUGUAY      869 -->
+		<!-- <SupportedInCountry>VE</SupportedInCountry> -->  <!-- VENEZUELA    871 -->
+        <!-- <SupportedInCountry>CA</SupportedInCountry> -->  <!-- Canada       649 -->
+        <!-- <SupportedInCountry>CN</SupportedInCountry> -->  <!-- China        641 -->
+        <!-- <SupportedInCountry>BR</SupportedInCountry> -->  <!-- Brazil       631 -->
+        <SupportedInCountry>AT</SupportedInCountry> <!-- AUSTRIA      618 -->
+        <SupportedInCountry>BE</SupportedInCountry> <!-- BELGIUM      624 -->
+        <SupportedInCountry>CH</SupportedInCountry> <!-- SWITZERLAND  848 -->         
+        <SupportedInCountry>CZ</SupportedInCountry> <!-- CZECH REP    668 -->
+        <SupportedInCountry>EG</SupportedInCountry> <!-- EGYPT        865 -->
+        <SupportedInCountry>DE</SupportedInCountry> <!-- GERMANY      724 -->
+        <SupportedInCountry>DK</SupportedInCountry> <!-- DENMARK      678 -->
+        <SupportedInCountry>ES</SupportedInCountry> <!-- SPAIN        838 -->
+        <SupportedInCountry>FI</SupportedInCountry> <!-- FINLAND      702 -->
+        <SupportedInCountry>FR</SupportedInCountry> <!-- FRANCE       706 -->
+        <SupportedInCountry>GB</SupportedInCountry> <!-- UK           866 -->
+        <SupportedInCountry>HR</SupportedInCountry> <!-- CROATIA      704 -->
+        <SupportedInCountry>IE</SupportedInCountry> <!-- IRELAND      754 -->
+        <SupportedInCountry>IT</SupportedInCountry> <!-- ITALY        758 -->
+        <SupportedInCountry>NL</SupportedInCountry> <!-- NETHERLANDS  788 -->
+        <SupportedInCountry>NO</SupportedInCountry> <!-- NORWAY       806 -->
+        <SupportedInCountry>PL</SupportedInCountry> <!-- POLAND       820 -->
+        <SupportedInCountry>RU</SupportedInCountry> <!-- RUSSIA       821 -->
+        <SupportedInCountry>PT</SupportedInCountry> <!-- PORTUGAL     822 -->
+        <SupportedInCountry>CS</SupportedInCountry> <!-- SERBIA       707 -->
+        <SupportedInCountry>SE</SupportedInCountry> <!-- SWEDEN       846 -->
+        <SupportedInCountry>SI</SupportedInCountry> <!-- SLOVENIA     708 -->
+        <SupportedInCountry>SK</SupportedInCountry> <!-- SLOVAKIA     693 -->
+        <SupportedInCountry>ZA</SupportedInCountry> <!-- SOUTH AFRICA 864 -->
+	</PackageType>
+	
+	<!-- LINKTOLER - ServiceLink Toleration/coexistence service -->
+	<PackageType id="linktoler">
+		<Name>ServiceLink Toleration/coexistence service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>linktoler</Key>
+		<PackageOffering></PackageOffering>
+		<PackageCategoryId>Customized service</PackageCategoryId>
+		<IsInternetDeliverable>false</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+		<!-- PTR8845 -->
+		<!-- <SupportedInCountry>CL</SupportedInCountry> -->  <!-- CHILE        655 -->
+		<!-- <SupportedInCountry>PE</SupportedInCountry> -->  <!-- PERU         815 -->
+		<!-- <SupportedInCountry>CO</SupportedInCountry> -->  <!-- COLOMBIA     661 -->
+		<!-- <SupportedInCountry>EC</SupportedInCountry> -->  <!-- ECUADOR      683 -->
+		<!-- <SupportedInCountry>UY</SupportedInCountry> -->  <!-- URUGUAY      869 -->
+		<!-- <SupportedInCountry>VE</SupportedInCountry> -->  <!-- VENEZUELA    871 -->
+        <!-- <SupportedInCountry>CA</SupportedInCountry> --> <!-- Canada       649 -->
+        <!-- <SupportedInCountry>CN</SupportedInCountry> --> <!-- China        641 -->
+        <!-- <SupportedInCountry>BR</SupportedInCountry> -->  <!-- Brazil       631 -->
+        <SupportedInCountry>AT</SupportedInCountry> <!-- AUSTRIA      618 -->
+        <SupportedInCountry>BE</SupportedInCountry> <!-- BELGIUM      624 -->
+        <SupportedInCountry>CH</SupportedInCountry> <!-- SWITZERLAND  848 -->         
+        <SupportedInCountry>CZ</SupportedInCountry> <!-- CZECH REP    668 -->
+        <SupportedInCountry>EG</SupportedInCountry> <!-- EGYPT        865 -->
+        <SupportedInCountry>DE</SupportedInCountry> <!-- GERMANY      724 -->
+        <SupportedInCountry>DK</SupportedInCountry> <!-- DENMARK      678 -->
+        <SupportedInCountry>ES</SupportedInCountry> <!-- SPAIN        838 -->
+        <SupportedInCountry>FI</SupportedInCountry> <!-- FINLAND      702 -->
+        <SupportedInCountry>FR</SupportedInCountry> <!-- FRANCE       706 -->
+        <SupportedInCountry>GB</SupportedInCountry> <!-- UK           866 -->
+        <SupportedInCountry>HR</SupportedInCountry> <!-- CROATIA      704 -->
+        <SupportedInCountry>IE</SupportedInCountry> <!-- IRELAND      754 -->
+        <SupportedInCountry>IT</SupportedInCountry> <!-- ITALY        758 -->
+        <SupportedInCountry>NL</SupportedInCountry> <!-- NETHERLANDS  788 -->
+        <SupportedInCountry>NO</SupportedInCountry> <!-- NORWAY       806 -->
+        <SupportedInCountry>PL</SupportedInCountry> <!-- POLAND       820 -->
+        <SupportedInCountry>RU</SupportedInCountry> <!-- RUSSIA       821 -->
+        <SupportedInCountry>PT</SupportedInCountry> <!-- PORTUGAL     822 -->
+        <SupportedInCountry>CS</SupportedInCountry> <!-- SERBIA       707 -->
+        <SupportedInCountry>SE</SupportedInCountry> <!-- SWEDEN       846 -->
+        <SupportedInCountry>SI</SupportedInCountry> <!-- SLOVENIA     708 -->
+        <SupportedInCountry>SK</SupportedInCountry> <!-- SLOVAKIA     693 -->
+        <SupportedInCountry>ZA</SupportedInCountry> <!-- SOUTH AFRICA 864 -->
+	</PackageType>
+
+	<!-- Corrective Service -->
+	<PackageType id="Corrective Service">
+		<Name>corrective service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>corrective</Key>
+		<PackageOffering>CORRSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- Preventive Service -->
+	<PackageType id="Preventive Service">
+		<Name>preventive service for a system</Name>
+		<IsSupported>true</IsSupported>
+		<Key>preventive</Key>
+		<PackageOffering>PREVSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>required</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- VM APAR service -->
+	<PackageType id="VM APAR service">
+		<Name>APAR service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>vmaparserv</Key>
+		<PackageOffering>VMCORRSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- VM PTF service -->
+	<PackageType id="VM PTF service">
+		<Name>PTF service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>vmptfserv</Key>
+		<PackageOffering>VMCORRSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- VM RSU service -->
+	<PackageType id="VM RSU service">
+		<Name>RSU service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>vmrsuserv</Key>
+		<PackageOffering>VMRSUSERV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- VM ESO service -->
+	<PackageType id="VM ESO service">
+		<Name>ESO service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>vmesoserv</Key>
+		<PackageOffering>VMPREVSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- VM PSP service -->
+	<PackageType id="VM PSP service">
+		<Name>PSP service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>vmpspserv</Key>
+		<PackageOffering>VMPREVSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- VSE APAR service -->
+	<PackageType id="VSE APAR service">
+		<Name>APAR service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>vseaparserv</Key>
+		<PackageOffering>VSECORRSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- VSE PTF service -->
+	<PackageType id="VSE PTF service">
+		<Name>PTF service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>vseptfserv</Key>
+		<PackageOffering>VSECORRSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>uses</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- VSE HIPER/PE service -->
+	<PackageType id="VSE HIPER/PE service">
+		<Name>PSP service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>vsehiperserv</Key>
+		<PackageOffering>VSEPREVSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>required</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- FMID service -->
+	<PackageType id="FMID service">
+		<Name>FMID service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>fmidserv</Key>
+		<PackageOffering>PREVSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>required</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- Product service -->
+	<PackageType id="Product service">
+		<Name>Product service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>productserv</Key>
+		<PackageOffering>PREVSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>required</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- SREL service by profile (PROFILESERV) -->
+	<PackageType id="SREL service by profile">
+		<Name>SREL service by profile</Name>
+		<IsSupported>true</IsSupported>
+		<Key>profileserv</Key>
+		<PackageOffering>PREVSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- Zone service -->
+	<PackageType id="Zone service">
+		<Name>Zone service</Name>
+		<IsSupported>true</IsSupported>
+		<Key>zoneserv</Key>
+		<PackageOffering>PREVSRV</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>required</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- Service subscription -->
+	<PackageType id="Service subscription">
+		<Name>Service subscription</Name>
+		<IsSupported>true</IsSupported>
+		<Key>servsub</Key>
+		<PackageOffering>SERVSUB</PackageOffering>
+		<PackageCategoryId>Service subscriptions</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- Service CBPDO -->
+	<PackageType id="Service CBPDO">
+		<Name>Service CBPDO</Name>
+		<IsSupported>false</IsSupported>
+		<Key>servcbpdo</Key>
+		<PackageOffering>5751CS3</PackageOffering>
+		<PackageCategoryId>Service</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>true</IsLicenseCfgSupported>
+		<UsesAnnounceDates>true</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- VM SDO Version 3 -->
+	<PackageType id="VM SDO Version 3">
+		<Name>VM SDO version 3</Name>
+		<IsSupported>false</IsSupported>
+		<Key>vmsdo3</Key>
+		<PackageOffering>5654A20</PackageOffering>
+		<PackageCategoryId>Products</PackageCategoryId>
+		<IsInternetDeliverable>false</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- VM SDO Version 4 -->
+	<PackageType id="VM SDO Version 4">
+		<Name>VM SDO version 4</Name>
+		<IsSupported>false</IsSupported>
+		<Key>vmsdo4</Key>
+		<PackageOffering>5739A04</PackageOffering>
+		<PackageCategoryId>Products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- VM SDO Version 5 -->
+	<PackageType id="VM SDO Version 5">
+		<Name>VM SDO version 5</Name>
+		<IsSupported>true</IsSupported>
+		<Key>vmsdo5</Key>
+		<PackageOffering>5741A06</PackageOffering>
+		<PackageCategoryId>Products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- PTR 7403  VM SDO Version 6 -->
+	<PackageType id="VM SDO Version 6">
+		<Name>VM SDO version 6</Name>
+		<IsSupported>true</IsSupported>
+		<Key>vmsdo6</Key>
+		<PackageOffering>5741A08</PackageOffering>
+		<PackageCategoryId>Products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- VSE SIPO -->
+	<PackageType id="VSE SIPO">
+		<Name>VSE SIPO</Name>
+		<IsSupported>false</IsSupported>
+		<Key>vsesipo</Key>
+		<PackageOffering>5690VSE</PackageOffering>
+		<PackageCategoryId>Products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- zVSE SIPO -->
+	<PackageType id="zVSE SIPO">
+		<Name>z/VSE SIPO version 3</Name>
+		<IsSupported>false</IsSupported>
+		<Key>zvsesipo</Key>
+		<PackageOffering>5609ZVS</PackageOffering>
+		<PackageCategoryId>Products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	
+	<!-- zVSE SIPO Version 4 -->
+	<PackageType id="zVSE SIPO Version 4">
+		<Name>z/VSE SIPO version 4</Name>
+		<IsSupported>true</IsSupported>
+		<Key>zvsesipo4</Key>
+		<PackageOffering>5609ZV4</PackageOffering>
+		<PackageCategoryId>Products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>	
+	
+	<!-- zVSE SIPO Version 5 -->
+	<PackageType id="zVSE SIPO Version 5">
+		<Name>z/VSE SIPO version 5</Name>
+		<IsSupported>true</IsSupported>
+		<Key>zvsesipo5</Key>
+		<PackageOffering>5609ZV5</PackageOffering>
+		<PackageCategoryId>Products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>	
+	
+	
+	<!-- Service certificate -->
+	<PackageType id="Service certificate">
+		<Name>Service certificate</Name>
+		<IsSupported>true</IsSupported>
+		<Key>servcert</Key>
+		<PackageOffering>SERVCERT</PackageOffering>
+		<PackageCategoryId>Automated certificates</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	<!--start for ptr 6094 -->
+	<PackageType id="zOS Standalone Product">
+		<Name>z/OS Standalone Product</Name>
+		<IsSupported>true</IsSupported>
+		<Key>zosstandalone</Key>
+		<PackageOffering>IPLABTO</PackageOffering>
+		<PackageCategoryId>Standalone products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>
+	<PackageType id="zVM Standalone Product">
+		<Name>z/VM Standalone Product</Name>
+		<IsSupported>true</IsSupported>
+		<Key>zvmstandalone</Key>
+		<PackageOffering>IPLABTO</PackageOffering>
+		<PackageCategoryId>Standalone products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>	
+	<PackageType id="zVSE Standalone Product">
+		<Name>z/VSE Standalone Product</Name>
+		<IsSupported>true</IsSupported>
+		<Key>zvsestandalone</Key>
+		<PackageOffering>IPLABTO</PackageOffering>
+		<PackageCategoryId>Standalone products</PackageCategoryId>
+		<IsInternetDeliverable>true</IsInternetDeliverable>
+		<IsLicenseCfgSupported>false</IsLicenseCfgSupported>
+		<UsesAnnounceDates>false</UsesAnnounceDates>
+		<SoftwareInventoryUsage>none</SoftwareInventoryUsage>
+		<UsesVSLs>false</UsesVSLs>
+	</PackageType>	
+	<!-- end for ptr 6094 -->
+</PackageTypes>
+
+	

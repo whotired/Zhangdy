@@ -1,0 +1,3 @@
+grant codeBase "C:\esw\zhangdy\ZhangdyTest\src\test\zhangdy\rmi" {
+    permission java.security.AllPermission;
+};

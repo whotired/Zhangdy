@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ram:RequestInfo xmlns:ram="http://www.ibm.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ibm.com  RAMRequestSchema.xsd">
+	<ram:RequestHeader AppId="1" ApproverId="1"
+		ApproverType="IGA" CreatedDate="2011-07-15 06:48:30" LastUpdated="2011-07-15 06:48:30"
+		RequestId="-1" RequestStatus="OPEN" RequestType="BPID" RequestorId="1885" />
+	<ram:RequestComments>
+		<ram:RequesterComments>Andy test</ram:RequesterComments>
+		<ram:ApproverComments />
+	</ram:RequestComments>
+	<ram:RequestTypeDetails>
+		<ram:AppRoleRequestDetails AppRoleId="94">
+			<ram:CustTypeDetails>
+				<ram:CustTypeId>0</ram:CustTypeId>
+			</ram:CustTypeDetails>
+			<ram:CountryDetails>
+				<ram:CountryId>CN</ram:CountryId>
+			</ram:CountryDetails>
+		</ram:AppRoleRequestDetails>
+	</ram:RequestTypeDetails>
+</ram:RequestInfo>

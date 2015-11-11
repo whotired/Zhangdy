@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu restaurantName="My Modern Restaurant" phone="555-555-5555">
+     <entree veg="N">
+       <name>Freshly Shucked Oysters</name>
+       <price>5.00</price>    
+     </entree>
+     <entree veg="N">
+       <name>Duck Consomme with mushrooms</name>
+       <price>7.00</price>    
+     </entree>
+     
+     <main veg="Y">
+       <name>Eggplant Mozzarella</name>
+       <price>25.00</price>
+       <description>Served with our delicious sauce</description>    
+     </main>
+     <main veg="N">
+       <name>King Salmon</name>  
+       <price>32.50</price>
+       <description>Served with potato salad and quail egg</description>
+     </main>      
+</menu>

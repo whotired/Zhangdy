@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JavaTransformation="http:///schemas/JavaTransformation/_FOROAE3aEd-tPpJR7OP4Bg/5" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/JavaTransformation/_FOROAE3aEd-tPpJR7OP4Bg/5 pathmap://TRANSFORM_JAVA_PROFILES/JavaTransformProfile.epx#_FO3q8E3aEd-tPpJR7OP4Bg?JavaTransformation/JavaTransformation?">
+  <uml:Model xmi:id="_QmCLUEpkEduL_btpZQt8_w" name="Java">
+    <eAnnotations xmi:id="_QmCLUUpkEduL_btpZQt8_w" source="uml2.diagrams"/>
+    <packageImport xmi:id="_QmCLY0pkEduL_btpZQt8_w">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="_ZvYsAG6AEduH44RUueUXjg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZBWx0EpkEduL_btpZQt8_w" name="java.lang">
+      <eAnnotations xmi:id="_ZBWx0UpkEduL_btpZQt8_w" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_b66_8EpkEduL_btpZQt8_w" name="Comparable">
+        <ownedOperation xmi:id="_-8UtMEpkEduL_btpZQt8_w" name="compareTo"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_UvRJgSvDEduv4vWOHnmAvA" name="PrimitiveTypes">
+      <eAnnotations xmi:id="_Ro5UoEjyEduL_btpZQt8_w" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_UvRJgivDEduv4vWOHnmAvA" name="List"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ct1r4Em6EduL_btpZQt8_w" name="Date"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_GPjRIEqPEduL_btpZQt8_w" name="Map"/>
+    </packagedElement>
+    <profileApplication xmi:id="_QmCLWkpkEduL_btpZQt8_w">
+      <eAnnotations xmi:id="_QmCLW0pkEduL_btpZQt8_w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_QmCLXUpkEduL_btpZQt8_w">
+      <eAnnotations xmi:id="_QmCLXkpkEduL_btpZQt8_w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_QmCLYEpkEduL_btpZQt8_w">
+      <eAnnotations xmi:id="_QmCLYUpkEduL_btpZQt8_w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_UQA5QG6AEduH44RUueUXjg">
+      <eAnnotations xmi:id="_UQA5QW6AEduH44RUueUXjg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://TRANSFORM_JAVA_PROFILES/JavaTransformProfile.epx#_FO3q8E3aEd-tPpJR7OP4Bg?JavaTransformation/JavaTransformation?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://TRANSFORM_JAVA_PROFILES/JavaTransformProfile.epx#_TQfqgOcaEdi4LptNXGi2fQ?JavaTransformation?"/>
+    </profileApplication>
+  </uml:Model>
+  <JavaTransformation:NamedJavaElement xmi:id="_n28l4DWcEeWPNKB2vkfSuw" base_Package="_QmCLUEpkEduL_btpZQt8_w"/>
+  <JavaTransformation:NamedJavaElement xmi:id="_n28l4TWcEeWPNKB2vkfSuw" base_Package="_ZBWx0EpkEduL_btpZQt8_w"/>
+  <JavaTransformation:NamedJavaElement xmi:id="_n28l4jWcEeWPNKB2vkfSuw" base_Interface="_b66_8EpkEduL_btpZQt8_w"/>
+  <JavaTransformation:JavaClassifier xmi:id="_n28l4zWcEeWPNKB2vkfSuw" base_Interface="_b66_8EpkEduL_btpZQt8_w"/>
+  <JavaTransformation:JavaOperation xmi:id="_n28l5DWcEeWPNKB2vkfSuw" base_Operation="_-8UtMEpkEduL_btpZQt8_w"/>
+  <JavaTransformation:NamedJavaElement xmi:id="_n28l5TWcEeWPNKB2vkfSuw" base_Operation="_-8UtMEpkEduL_btpZQt8_w"/>
+  <JavaTransformation:NamedJavaElement xmi:id="_n28l5jWcEeWPNKB2vkfSuw" base_Package="_UvRJgSvDEduv4vWOHnmAvA"/>
+</xmi:XMI>

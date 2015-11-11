@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default_0="http:///Default_0.profile.uml2" xmlns:notation="http://www.ibm.com/xtools/1.5.0/Notation" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.0/Umlnotation" xsi:schemaLocation="http:///Default_0.profile.uml2 pathmap://UML2_MSL_PROFILES/Default.epx#_bA7Pc9WLEdiy4IqP8whjFA?Default/%3CEPackage%3E" xmi:id="_BcvmEI8bEdym9ZzcrICrVQ" name="LoggingFramework" appliedProfile="_BcvmFI8bEdym9ZzcrICrVQ _BcvmF48bEdym9ZzcrICrVQ _BcvmGo8bEdym9ZzcrICrVQ _BcvmHY8bEdym9ZzcrICrVQ _BcvmII8bEdym9ZzcrICrVQ">
+  <eAnnotations xmi:id="_BcvmEY8bEdym9ZzcrICrVQ" source="uml2.diagrams">
+    <contents xmi:type="notation:Diagram" xmi:id="_HrF-sI8bEdym9ZzcrICrVQ" type="Class" element="_BcvmEI8bEdym9ZzcrICrVQ" name="Logging Framework">
+      <children xmi:id="_fcAPII8bEdym9ZzcrICrVQ" element="_X2vt8I8bEdym9ZzcrICrVQ">
+        <children xmi:id="_fcAPI48bEdym9ZzcrICrVQ" type="ImageCompartment" element="_X2vt8I8bEdym9ZzcrICrVQ">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_fcAPJI8bEdym9ZzcrICrVQ" width="1320" height="1320"/>
+        </children>
+        <children xmi:id="_fcAPJY8bEdym9ZzcrICrVQ" type="Stereotype" element="_X2vt8I8bEdym9ZzcrICrVQ"/>
+        <children xmi:id="_fcAPJo8bEdym9ZzcrICrVQ" type="Name" element="_X2vt8I8bEdym9ZzcrICrVQ"/>
+        <children xmi:id="_fcAPJ48bEdym9ZzcrICrVQ" type="AttributeCompartment" element="_X2vt8I8bEdym9ZzcrICrVQ">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_fcAPKI8bEdym9ZzcrICrVQ"/>
+        </children>
+        <children xmi:id="_fcAPKY8bEdym9ZzcrICrVQ" type="OperationCompartment" element="_X2vt8I8bEdym9ZzcrICrVQ">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_fcAPKo8bEdym9ZzcrICrVQ"/>
+        </children>
+        <children xmi:id="_fcAPK48bEdym9ZzcrICrVQ" visible="false" type="SignalCompartment" element="_X2vt8I8bEdym9ZzcrICrVQ">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_fcAPLI8bEdym9ZzcrICrVQ"/>
+        </children>
+        <children xmi:id="_fcAPLY8bEdym9ZzcrICrVQ" visible="false" type="StructureCompartment" element="_X2vt8I8bEdym9ZzcrICrVQ">
+          <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_fcAPLo8bEdym9ZzcrICrVQ"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_fcAPIY8bEdym9ZzcrICrVQ" showStereotype="Label"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fcAPIo8bEdym9ZzcrICrVQ" x="3498" y="8586"/>
+      </children>
+      <children xmi:id="_fvGxUI8bEdym9ZzcrICrVQ" element="_Sv7lII8bEdym9ZzcrICrVQ">
+        <children xmi:id="_fvGxU48bEdym9ZzcrICrVQ" type="ImageCompartment" element="_Sv7lII8bEdym9ZzcrICrVQ">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_fvGxVI8bEdym9ZzcrICrVQ" width="530" height="530"/>
+        </children>
+        <children xmi:id="_fvGxVY8bEdym9ZzcrICrVQ" type="Stereotype" element="_Sv7lII8bEdym9ZzcrICrVQ"/>
+        <children xmi:id="_fvGxVo8bEdym9ZzcrICrVQ" type="Kind" element="_Sv7lII8bEdym9ZzcrICrVQ"/>
+        <children xmi:id="_fvGxV48bEdym9ZzcrICrVQ" type="Name" element="_Sv7lII8bEdym9ZzcrICrVQ"/>
+        <children xmi:id="_fvGxWI8bEdym9ZzcrICrVQ" type="AttributeCompartment" element="_Sv7lII8bEdym9ZzcrICrVQ">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_fvGxWY8bEdym9ZzcrICrVQ"/>
+        </children>
+        <children xmi:id="_fvGxWo8bEdym9ZzcrICrVQ" type="OperationCompartment" element="_Sv7lII8bEdym9ZzcrICrVQ">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_fvGxW48bEdym9ZzcrICrVQ"/>
+        </children>
+        <children xmi:id="_fvGxXI8bEdym9ZzcrICrVQ" visible="false" type="SignalCompartment" element="_Sv7lII8bEdym9ZzcrICrVQ">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_fvGxXY8bEdym9ZzcrICrVQ"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLClassifierStyle" xmi:id="_fvGxUY8bEdym9ZzcrICrVQ" showListSignature="true" showStereotype="Label" useClassifierShape="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fvGxUo8bEdym9ZzcrICrVQ" x="9222" y="4770"/>
+      </children>
+      <children xmi:id="_f_WMwI8bEdym9ZzcrICrVQ" element="_VlYvUI8bEdym9ZzcrICrVQ">
+        <children xmi:id="_f_WMw48bEdym9ZzcrICrVQ" type="ImageCompartment" element="_VlYvUI8bEdym9ZzcrICrVQ">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_f_WMxI8bEdym9ZzcrICrVQ" width="530" height="530"/>
+        </children>
+        <children xmi:id="_f_WMxY8bEdym9ZzcrICrVQ" type="Stereotype" element="_VlYvUI8bEdym9ZzcrICrVQ"/>
+        <children xmi:id="_f_WMxo8bEdym9ZzcrICrVQ" type="Kind" element="_VlYvUI8bEdym9ZzcrICrVQ"/>
+        <children xmi:id="_f_WMx48bEdym9ZzcrICrVQ" type="Name" element="_VlYvUI8bEdym9ZzcrICrVQ"/>
+        <children xmi:id="_f_WMyI8bEdym9ZzcrICrVQ" visible="false" type="AttributeCompartment" element="_VlYvUI8bEdym9ZzcrICrVQ">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_f_WMyY8bEdym9ZzcrICrVQ"/>
+        </children>
+        <children xmi:id="_f_WMyo8bEdym9ZzcrICrVQ" type="OperationCompartment" element="_VlYvUI8bEdym9ZzcrICrVQ">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_f_WMy48bEdym9ZzcrICrVQ"/>
+        </children>
+        <children xmi:id="_f_WMzI8bEdym9ZzcrICrVQ" visible="false" type="SignalCompartment" element="_VlYvUI8bEdym9ZzcrICrVQ">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_f_WMzY8bEdym9ZzcrICrVQ"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLClassifierStyle" xmi:id="_f_WMwY8bEdym9ZzcrICrVQ" showListSignature="true" showStereotype="Label" useClassifierShape="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f_WMwo8bEdym9ZzcrICrVQ" x="9540" y="8904"/>
+      </children>
+      <children xmi:id="_vldmAI8bEdym9ZzcrICrVQ" element="_srzRQI8bEdym9ZzcrICrVQ">
+        <children xmi:id="_vldmA48bEdym9ZzcrICrVQ" type="ImageCompartment" element="_srzRQI8bEdym9ZzcrICrVQ">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_vldmBI8bEdym9ZzcrICrVQ" width="530" height="530"/>
+        </children>
+        <children xmi:id="_vldmBY8bEdym9ZzcrICrVQ" type="Stereotype" element="_srzRQI8bEdym9ZzcrICrVQ"/>
+        <children xmi:id="_vldmBo8bEdym9ZzcrICrVQ" type="Kind" element="_srzRQI8bEdym9ZzcrICrVQ"/>
+        <children xmi:id="_vldmB48bEdym9ZzcrICrVQ" type="Name" element="_srzRQI8bEdym9ZzcrICrVQ"/>
+        <children xmi:id="_vldmCI8bEdym9ZzcrICrVQ" type="AttributeCompartment" element="_srzRQI8bEdym9ZzcrICrVQ">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_vldmCY8bEdym9ZzcrICrVQ"/>
+        </children>
+        <children xmi:id="_vldmCo8bEdym9ZzcrICrVQ" type="OperationCompartment" element="_srzRQI8bEdym9ZzcrICrVQ">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_vldmC48bEdym9ZzcrICrVQ"/>
+        </children>
+        <children xmi:id="_vldmDI8bEdym9ZzcrICrVQ" visible="false" type="SignalCompartment" element="_srzRQI8bEdym9ZzcrICrVQ">
+          <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_vldmDY8bEdym9ZzcrICrVQ"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLClassifierStyle" xmi:id="_vldmAY8bEdym9ZzcrICrVQ" showListSignature="true" showStereotype="Label" useClassifierShape="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vldmAo8bEdym9ZzcrICrVQ" x="3498" y="4770"/>
+      </children>
+      <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_HrF-sY8bEdym9ZzcrICrVQ"/>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_BcvmFI8bEdym9ZzcrICrVQ">
+    <eAnnotations xmi:id="_BcvmFY8bEdym9ZzcrICrVQ" source="attributes">
+      <details xmi:id="_BcvmFo8bEdym9ZzcrICrVQ" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML2_PROFILES/Basic.profile.uml2#_6mFRgK86Edih9-GG5afQ0g"/>
+    <importedProfile href="pathmap://UML2_PROFILES/Basic.profile.uml2#_6mFRgK86Edih9-GG5afQ0g"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_BcvmF48bEdym9ZzcrICrVQ">
+    <eAnnotations xmi:id="_BcvmGI8bEdym9ZzcrICrVQ" source="attributes">
+      <details xmi:id="_BcvmGY8bEdym9ZzcrICrVQ" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML2_PROFILES/Intermediate.profile.uml2#_Cz7csK87Edih9-GG5afQ0g"/>
+    <importedProfile href="pathmap://UML2_PROFILES/Intermediate.profile.uml2#_Cz7csK87Edih9-GG5afQ0g"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_BcvmGo8bEdym9ZzcrICrVQ">
+    <eAnnotations xmi:id="_BcvmG48bEdym9ZzcrICrVQ" source="attributes">
+      <details xmi:id="_BcvmHI8bEdym9ZzcrICrVQ" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML2_PROFILES/Complete.profile.uml2#_M7pTkK87Edih9-GG5afQ0g"/>
+    <importedProfile href="pathmap://UML2_PROFILES/Complete.profile.uml2#_M7pTkK87Edih9-GG5afQ0g"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_BcvmHY8bEdym9ZzcrICrVQ">
+    <eAnnotations xmi:id="_BcvmHo8bEdym9ZzcrICrVQ" source="attributes">
+      <details xmi:id="_BcvmH48bEdym9ZzcrICrVQ" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default"/>
+    <importedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_BcvmII8bEdym9ZzcrICrVQ">
+    <eAnnotations xmi:id="_BcvmIY8bEdym9ZzcrICrVQ" source="attributes">
+      <details xmi:id="_BcvmIo8bEdym9ZzcrICrVQ" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment"/>
+    <importedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment"/>
+  </packageImport>
+  <packageImport xmi:id="_BcvmI48bEdym9ZzcrICrVQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_EfRZoK86EdieaYgxtVWN8Q"/>
+  </packageImport>
+  <ownedMember xmi:type="uml:Package" xmi:id="_KaQToI8bEdym9ZzcrICrVQ" name="com.ibm.ams.logging">
+    <eAnnotations xmi:id="_KaQToY8bEdym9ZzcrICrVQ" source="uml2.diagrams"/>
+    <ownedMember xmi:type="uml:Interface" xmi:id="_Sv7lII8bEdym9ZzcrICrVQ" name="LoggableInfoType">
+      <ownedComment xmi:id="_0bfEUI8cEdym9ZzcrICrVQ" body="Any application that wants to utilize LoggableInfoTypes should implement this interface with a class using a typesafe enum pattern to define all the valid additional types of information that can be logged with a LoggedException for their application." annotatedElement="_Sv7lII8bEdym9ZzcrICrVQ">
+        <eAnnotations xmi:id="_0bfEUY8cEdym9ZzcrICrVQ" source="appliedStereotypes">
+          <contents xmi:type="Default_0:Default__Documentation" xmi:id="_0bfEUo8cEdym9ZzcrICrVQ"/>
+        </eAnnotations>
+      </ownedComment>
+      <ownedOperation xmi:id="_2TiLEI8cEdym9ZzcrICrVQ" name="getDescription">
+        <ownedComment xmi:id="_41aR8I8cEdym9ZzcrICrVQ" body="Returns the description of this Type of Loggable Info" annotatedElement="_2TiLEI8cEdym9ZzcrICrVQ">
+          <eAnnotations xmi:id="_41aR8Y8cEdym9ZzcrICrVQ" source="appliedStereotypes">
+            <contents xmi:type="Default_0:Default__Documentation" xmi:id="_41aR8o8cEdym9ZzcrICrVQ"/>
+          </eAnnotations>
+        </ownedComment>
+        <returnResult xmi:id="_5XBxQI8cEdym9ZzcrICrVQ" name="ReturnResultParameter1" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
+        </returnResult>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
+      </ownedOperation>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Interface" xmi:id="_VlYvUI8bEdym9ZzcrICrVQ" name="LoggableObject">
+      <ownedComment xmi:id="_o_VxII8cEdym9ZzcrICrVQ" body="This interface describes what an Object needs to contain in order to have its information logged using the Application Exception framework.  This interface should be implemented by any Object in the Application that will be throwing or catching LoggedExceptions" annotatedElement="_VlYvUI8bEdym9ZzcrICrVQ">
+        <eAnnotations xmi:id="_o_VxIY8cEdym9ZzcrICrVQ" source="appliedStereotypes">
+          <contents xmi:type="Default_0:Default__Documentation" xmi:id="_o_VxIo8cEdym9ZzcrICrVQ"/>
+        </eAnnotations>
+      </ownedComment>
+      <ownedOperation xmi:id="_Z8LT8I8cEdym9ZzcrICrVQ" name="getLoggableInfo">
+        <ownedComment xmi:id="_j5w-cI8cEdym9ZzcrICrVQ" body="Returns a Map where the keys are LoggableInfoType objects and the values are Objects representing the corresponding value." annotatedElement="_Z8LT8I8cEdym9ZzcrICrVQ">
+          <eAnnotations xmi:id="_j5w-cY8cEdym9ZzcrICrVQ" source="appliedStereotypes">
+            <contents xmi:type="Default_0:Default__Documentation" xmi:id="_j5w-co8cEdym9ZzcrICrVQ"/>
+          </eAnnotations>
+        </ownedComment>
+        <returnResult xmi:id="_bYDcEI8cEdym9ZzcrICrVQ" name="ReturnResultParameter1" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="Java.emx#_GPjRIEqPEduL_btpZQt8_w?Java/PrimitiveTypes/Map"/>
+        </returnResult>
+        <type xmi:type="uml:PrimitiveType" href="Java.emx#_GPjRIEqPEduL_btpZQt8_w?Java/PrimitiveTypes/Map"/>
+      </ownedOperation>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Class" xmi:id="_X2vt8I8bEdym9ZzcrICrVQ" name="LoggingLevel">
+      <ownedComment xmi:id="_eZ1AcI8bEdym9ZzcrICrVQ" body="Defines the set of logging levels recognized by the LoggingFramework" annotatedElement="_X2vt8I8bEdym9ZzcrICrVQ">
+        <eAnnotations xmi:id="_eZ1AcY8bEdym9ZzcrICrVQ" source="appliedStereotypes">
+          <contents xmi:type="Default_0:Default__Documentation" xmi:id="_eZ1Aco8bEdym9ZzcrICrVQ"/>
+        </eAnnotations>
+      </ownedComment>
+      <ownedAttribute xmi:id="_DZZaQJEvEdym9ZzcrICrVQ" name="TRACE" isStatic="true" type="_X2vt8I8bEdym9ZzcrICrVQ" isReadOnly="true">
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_NTvjgJEvEdym9ZzcrICrVQ" type="_X2vt8I8bEdym9ZzcrICrVQ" body="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gV4dcI8bEdym9ZzcrICrVQ" name="id" visibility="private">
+        <ownedComment xmi:id="_dEVBkI8lEdym9ZzcrICrVQ" body="Integer (int) id of the logging level.  Corresponds to the levels in Log4J." annotatedElement="_gV4dcI8bEdym9ZzcrICrVQ">
+          <eAnnotations xmi:id="_dEVBkY8lEdym9ZzcrICrVQ" source="appliedStereotypes">
+            <contents xmi:type="Default_0:Default__Documentation" xmi:id="_dEVBko8lEdym9ZzcrICrVQ"/>
+          </eAnnotations>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_QX0YgJEvEdym9ZzcrICrVQ" name="DEBUG" isStatic="true" type="_X2vt8I8bEdym9ZzcrICrVQ" isReadOnly="true">
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_QX0YgZEvEdym9ZzcrICrVQ" type="_X2vt8I8bEdym9ZzcrICrVQ" body="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Q70dcJEvEdym9ZzcrICrVQ" name="INFO" isStatic="true" type="_X2vt8I8bEdym9ZzcrICrVQ" isReadOnly="true">
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_Q70dcZEvEdym9ZzcrICrVQ" type="_X2vt8I8bEdym9ZzcrICrVQ" body="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_RefFoJEvEdym9ZzcrICrVQ" name="WARN" isStatic="true" type="_X2vt8I8bEdym9ZzcrICrVQ" isReadOnly="true">
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_RefFoZEvEdym9ZzcrICrVQ" type="_X2vt8I8bEdym9ZzcrICrVQ" body="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_R9n4sJEvEdym9ZzcrICrVQ" name="ERROR" isStatic="true" type="_X2vt8I8bEdym9ZzcrICrVQ" isReadOnly="true">
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_R9n4sZEvEdym9ZzcrICrVQ" type="_X2vt8I8bEdym9ZzcrICrVQ" body="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_UTLa0JEvEdym9ZzcrICrVQ" name="FATAL" isStatic="true" type="_X2vt8I8bEdym9ZzcrICrVQ" isReadOnly="true">
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_UTLa0ZEvEdym9ZzcrICrVQ" type="_X2vt8I8bEdym9ZzcrICrVQ" body="1"/>
+      </ownedAttribute>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Interface" xmi:id="_srzRQI8bEdym9ZzcrICrVQ" name="LoggerFactory">
+      <ownedComment xmi:id="_qEBQ8JEvEdym9ZzcrICrVQ" body="Interface to define the operations for a ShopCBS Logger Factory.  " annotatedElement="_srzRQI8bEdym9ZzcrICrVQ">
+        <eAnnotations xmi:id="_qEBQ8ZEvEdym9ZzcrICrVQ" source="appliedStereotypes">
+          <contents xmi:type="Default_0:Default__Documentation" xmi:id="_qEBQ8pEvEdym9ZzcrICrVQ"/>
+        </eAnnotations>
+      </ownedComment>
+      <ownedOperation xmi:id="_v4R0UI8bEdym9ZzcrICrVQ" name="getLogger" type="_zjAqkI8kEdym9ZzcrICrVQ">
+        <ownedComment xmi:id="_dld1MI8kEdym9ZzcrICrVQ" body="Returns the Log object for the given Class." annotatedElement="_v4R0UI8bEdym9ZzcrICrVQ">
+          <eAnnotations xmi:id="_dld1MY8kEdym9ZzcrICrVQ" source="appliedStereotypes">
+            <contents xmi:type="Default_0:Default__Documentation" xmi:id="_dld1Mo8kEdym9ZzcrICrVQ"/>
+          </eAnnotations>
+        </ownedComment>
+        <returnResult xmi:id="_4h_tEI8kEdym9ZzcrICrVQ" name="ReturnResultParameter1" type="_zjAqkI8kEdym9ZzcrICrVQ" direction="return"/>
+        <ownedParameter xmi:id="_d6wvwI8kEdym9ZzcrICrVQ" name="class" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wogXYI8bEdym9ZzcrICrVQ" name="reload">
+        <ownedComment xmi:id="_Cz1JQI8lEdym9ZzcrICrVQ" body="Method to reload the Configuration used for logging and to reload the application loggers" annotatedElement="_wogXYI8bEdym9ZzcrICrVQ">
+          <eAnnotations xmi:id="_Cz1JQY8lEdym9ZzcrICrVQ" source="appliedStereotypes">
+            <contents xmi:type="Default_0:Default__Documentation" xmi:id="_Cz1JQo8lEdym9ZzcrICrVQ"/>
+          </eAnnotations>
+        </ownedComment>
+      </ownedOperation>
+    </ownedMember>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Package" xmi:id="_x4nlUI8kEdym9ZzcrICrVQ" name="org.apache.commons.logging">
+    <eAnnotations xmi:id="_x4nlUY8kEdym9ZzcrICrVQ" source="uml2.diagrams"/>
+    <ownedMember xmi:type="uml:Class" xmi:id="_zjAqkI8kEdym9ZzcrICrVQ" name="Log"/>
+  </ownedMember>
+  <ownedMember xmi:type="uml:Package" xmi:id="__W7vII8lEdym9ZzcrICrVQ" name="org.apache.log4j">
+    <eAnnotations xmi:id="__W7vIY8lEdym9ZzcrICrVQ" source="uml2.diagrams"/>
+    <ownedMember xmi:type="uml:Class" xmi:id="_BLjHYI8mEdym9ZzcrICrVQ" name="Layout" isAbstract="true">
+      <ownedOperation xmi:id="_HcqgII8mEdym9ZzcrICrVQ" name="format" isAbstract="true">
+        <returnResult xmi:id="_U5vJQI8mEdym9ZzcrICrVQ" name="ReturnResultParameter1" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
+        </returnResult>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
+        <ownedParameter xmi:id="_Qlo20I8mEdym9ZzcrICrVQ" name="le" type="_O2FkwI8mEdym9ZzcrICrVQ" effect="read"/>
+      </ownedOperation>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Class" xmi:id="_O2FkwI8mEdym9ZzcrICrVQ" name="LoggingEvent"/>
+    <ownedMember xmi:type="uml:Class" xmi:id="_D66wUI8pEdym9ZzcrICrVQ" name="DOMConfigurator" clientDependency="_GsjxgI8pEdym9ZzcrICrVQ">
+      <ownedComment xmi:id="_SyuSEI8pEdym9ZzcrICrVQ" body="This class initializes the log4j environment using a DOM tree. The DTD is specified in log4j.dtd.&#xD;&#xA;&#xD;&#xA;Sometimes it is useful to see how log4j is reading configuration files. You can enable log4j internal logging by setting the debug attribute in the log4j.xml file as in:&#xD;&#xA;   &lt;log4j:configuration debug=&quot;true&quot; xmlns:log4j=&quot;http://jakarta.apache.org/log4j/&quot;>" annotatedElement="_D66wUI8pEdym9ZzcrICrVQ">
+        <eAnnotations xmi:id="_SyuSEY8pEdym9ZzcrICrVQ" source="appliedStereotypes">
+          <contents xmi:type="Default_0:Default__Documentation" xmi:id="_SyuSEo8pEdym9ZzcrICrVQ"/>
+        </eAnnotations>
+      </ownedComment>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Usage" xmi:id="_GsjxgI8pEdym9ZzcrICrVQ" client="_D66wUI8pEdym9ZzcrICrVQ">
+      <supplier xmi:type="uml:Artifact" href="RAMAPI.emx#_RRYtEI8nEdym9ZzcrICrVQ?RAMAPI/com.ibm.ram.logging/log4j.xml"/>
+    </ownedMember>
+  </ownedMember>
+</uml:Model>

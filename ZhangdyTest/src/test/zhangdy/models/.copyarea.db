@@ -1,0 +1,9 @@
+ClearCase CopyAreaDB|4
+vobs\RAM_VOB\models
+2
+5
+14:RAM_Low_Level_Design|2|0|0|0|32aba836cc8011dea015000209858a4c|0
+15:RAM_High_Level_Design|2|0|0|0|1b7f18b2eeaf11dbb55e000209858a4c|0
+1a:RAM 1.0 Analysis Model.mdl|1|1284d55e0cd|a5d10|624c6dc2|6763f2a869f611dbae74000209858a4c|0
+e:RAM DB Def.mdl|1|1284d55f148|46310|e8ed8f32|ac83f2bc69f611dbae74000209858a4c|0
+f:RAM_Data_Models|2|0|0|0|f70fa96ccd1811deb3ef000209858a4c|0

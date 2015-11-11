@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration>
+	<appender name="FileAppender" class="org.apache.log4j.FileAppender">
+		<param name="threshold" value="INFO" />
+		<param name="File" value="loggingtest.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{ISO8601} %-5p %c - %m%n" />
+		</layout>
+	</appender>
+	
+	<appender name="FileAppenderError" class="org.apache.log4j.FileAppender">
+		<param name="File" value="loggingtesterror.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{ISO8601} %-5p %c - %m%n" />
+		</layout>
+	</appender>
+	
+	<logger name="test.zhangdy">
+		<level value="DEBUG"/>
+		<appender-ref ref="FileAppender" />
+	</logger>
+	<logger name="test.zhangdy.logging" additivity="false">
+		<appender-ref ref="FileAppenderError" />
+	</logger>
+
+</log4j:configuration>
