@@ -1,0 +1,48 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        //Check for the latest version here: http://plugins.gradle.org/plugin/com.jfrog.artifactory
+        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.7.5"
+    }
+}
+//配置 Artifactory
+apply plugin: org.jfrog.gradle.plugin.artifactory.ArtifactoryPlugin
+//配置 maven
+apply plugin: "maven-publish"
+
+publishing {
+    publications {
+        zhangdyJar_1(MavenPublication) {
+            groupId "com.zhangdy.common"
+            version = "0.1"
+            artifactId = "zhangdyCommon"
+            // Tell maven to prepare the generated "*.jar" file for publishing
+            artifact("$buildDir/libs/${project.getName()}.jar")
+        }
+    }
+}
+
+artifactory {
+	//contextUrl:表示要发布到哪里去，上下文连接
+    contextUrl = "http://127.0.0.1:8081/artifactory"
+    publish {
+        repository {
+            // The Artifactory repository key to publish to, repository的repoKey表示要发布到哪个artifactory哪个分支下
+            repoKey = "zhangdy-local"
+            // username和password则是用于访问artifactory的权限认证，默认账号密码为admin和password
+            username = "zhangdy"
+            password = "zdy55833"
+            maven = true
+        }
+        defaults {
+            // Tell the Artifactory Plugin which artifacts should be published to Artifactory.
+            // pubilcations:表示要发布的文件类型
+            publications("zhangdyJar_1")
+            publishArtifacts = true
+            // Publish generated POM files to Artifactory (true by default), publishPom:是否将自动生成的pom.xml文件发布到Artifactory
+            publishPom = true
+        }
+    }
+}
